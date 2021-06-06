@@ -34,7 +34,7 @@ These can be found at the following links -
 
 ## All Pages
 - Sign Up button - this allows users to sign up with their email address and register to receive information on new music releases, gigs, etc.
-- Social Media links - this feature allows users to follow the band on Facebook, Twitter and Youtube for all the latest news
+- Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify and Youtube for all the latest news
 ## Technologies Used
   **HTML5**  - This was used forthe layput of the website
   **CSS**    - This was used to style the website
