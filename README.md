@@ -8,13 +8,13 @@
 
 **I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
 
--Audio clips for visitors to listen to some of the bands songs
--A video file so the visitors can view the band performing their latest video
--A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
--Information about the band and quotes from interviews done by Music magazines and Websites
--A bookings page so users can book the band for events
--Social media links for users to follow to stay up to date with any news the band may have
--I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience.
+- Audio clips for visitors to listen to some of the bands songs
+- A video file so the visitors can view the band performing their latest video
+- A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
+- Information about the band and quotes from interviews done by Music magazines and Websites
+- A bookings page so users can book the band for events
+- Social media links for users to follow to stay up to date with any news the band may have
+- I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience.
   
   
 ## Wireframe Mockups 
