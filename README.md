@@ -1,59 +1,71 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# Mr Shiraz
+( Add Hero Imaage)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+>I built this website to showcase the talents of Mr Shiraz, It displays the bands albums, with links to an external site to purchase, Photos of the band members and quotes from Interviews and reviews of Mr Shiraz. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs and events. I have included video and audio files so thaat users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.
+## UX
+>The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to hear clips from their back catalog and buy related merchandise.
 
-## Gitpod Reminders
+**I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-Audio clips for visitors to listen to some of the bands songs
+-A video file so the visitors can view the band performing their latest video
+-A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
+-Information about the band and quotes from interviews done by Music magazines and Websites
+-A bookings page so users can book the band for events
+-Social media links for users to follow to stay up to date with any news the band may have
+-I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience.
+  
+  
+## Wireframe Mockups 
+These can be found at the following links - 
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+### [Home Page] (Https;//github.com/PaulBowden673/Projects-MP-MP1/home.html)
+- Embedded Youtube video
 
-Another blue button should appear to click: _Open Browser_.
+### [Music Page] (Https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
+ - Albums - this feature displays Mr Shiraz's current album back catalog. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
+ - Merch - this feature displays the bands current selection of merchandise and allows the user to click on image to purchase the item on Bandcamp
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### [Booking Page] (Https://github.com/PaulBowden673/Projects-Mp-MP1/booking.html)
+ - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs or events.
 
-A blue button should appear to click: _Make Public_,
+## All Pages
+- Sign Up button - this allows users to sign up with their email address and register to receive information on new music releases, gigs, etc.
+- Social Media links - this feature allows users to follow the band on Facebook, Twitter and Youtube for all the latest news
+## Technologies Used
+  **HTML5**  - This was used forthe layput of the website
+  **CSS**    - This was used to style the website
+  **Bootstrap** - This was used to get the website up and running quickly
+## Testing
+ have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
 
-Another blue button should appear to click: _Open Browser_.
+#### Devices
+( list various moblie devices used - Samsung Tab6 lte, Ipad, Iphone, Samsumg S9)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Browsers
+( List various browsers used - chrome, edge, firefox.safari)
 
-To log into the Heroku toolbelt CLI:
+## Issues/Bugs
+( list bugs and fixes as well asany unfixed bugs)
+### Validation
+All files passed validation testing at
+## Deployment 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Credits
+Where photos, video, text taken from
+### Content
+Text
+### Media
+Video, audio
+## Acknowledgements
+- [Code Institute](https://www.codeinstitute.net/)
+- Newcastle College
+- Mikey (Shiraz) Baird for allowing me to use information about the band, photos and videos 
+- Bootstrap
+- Youtube  - embedded video
+## References 
+Omly needed iff there are more refenrcess than i can list on README
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
