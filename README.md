@@ -2,7 +2,7 @@
 # Mr Shiraz
 ( Add Hero Imaage)
 
->I built this website to showcase the talents of Mr Shiraz, It displays the bands albums, with links to an external site to purchase, Photos of the band members and quotes from Interviews and reviews of Mr Shiraz. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs and events. I have included video and audio files so thaat users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.
+>I built this website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, It displays the bands albums and merchanise with links to purchase, Photos of the band members and quotes from Interviews and reviews of Mr Shiraz. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs and events. I have included video and audio files so thaat users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.
 ## UX
 >The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to hear clips from their back catalog and buy related merchandise.
 
