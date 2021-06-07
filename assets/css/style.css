@@ -1,17 +1,39 @@
 
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0; 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,40')
 
 
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
+#sign-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 4px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
 }
 
 
+
+/*------------------Footer----*/
+
+footer {
+    background-color: #525252;
+    color: white;
+    min-height: 120px;
+    margin: 0; 
+}
+
 .social-links {
     padding-bottom: 15px;
+    text-align: center;
+    
 }
 
 .social-links li a i {
@@ -19,10 +41,11 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 7px;
     text-align: center;
-    color: blue;
+    color: red;
+    margin-top:40px;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;

@@ -1,117 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!------Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/style.css">
+
 
     <title>Mr Shiraz</title>
 </head>
 <header>
-<!------Hero image-->
-<div>
-    <h1>Mr Shiraz</h1>
-</div>
-<!----nav bar-->
-<div class="containter-fluid">
-<nav>
-    <ul class="nav nav-pills justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Music</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Booking Us</a>
-        </li>
-      </ul>
-</nav>
-</div>
-<!---Sign up Modal-->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-  
-<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Sign Up to Mr Shiraz!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="repeatPassword">Repeat Password</label>
-                        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                    </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </form>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Mr Shiraz</h1>
+        </div>
+        <nav>
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Book Us!</a>
+                </li>
+
+            </ul>
+        </nav>
+        <img src="../assets/images/hero-image.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+</header>
+
+<section>
+    <!---Sign up Modal-->
+    <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
+        Up!</button>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up to Mr Shiraz!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</header>
-
+</section>
 
 <body>
-<!-----About (The Band)-->
-<h2>About</h2>
-<!-----Embedded Youtube video (Bands Latest Video)-->
-<h2>Latest Video</h2>
-<!-----Quotes (Interviews/Music Mags/Music Websites)-->
-<h2> Quotes</h2>
-<!-------Footer-->
-<footer class="container-fluid">
+    <!-----About (The Band)-->
+    <section class="container-fluid">
+        <p>Who is MR SHIRAZ? I don't think that mystery will ever actually be solved and it's a question that will
+            probably generate multiple, misleading answers every time it's asked. Why's that, you ask? Well, when asked
+            for some facts about the band, this is what they gave us...</p>
+        <p> (DISCLAIMER - ALL OF THE FOLLOWING IS TRUE)</p>
+        <p>Bassist Tori Shiraz is a philosophy genius and possibly the most intelligent person in the world,</p>
+        <p>Whereas frontman Mikey Shiraz once released a book of confessions of all the terrible things he's done . His
+            mother refuses to read it.</p>
+        <p> Lead guitarist Tim Shiraz looks like everyone in the world, apparently. Examples are Edward Norton, the dead
+            body from Stand By Me, Cameron from Ferris Bueller's Day Off, the mum off 90’s kids show Dinosaurs and many
+            more.</p>
+        <p> And of course, there's a Facebook page.</p>
 
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fab fa-soundcloud"></i>
-                        <span class="sr-only">Soundcloud</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fab fa-spotify"></i>
-                        <span class="sr-only">Spotify</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                        <span class="sr-only">YouTube</span>
-                    </a>
-                </li>
-            </ul>
-        
+        <p>Despite being absolutely ridiculous, they should also be taken rather seriously.
+            <p>They were the winner of the best single at the Pure Rawk Awards and they were also nominated for best
+                bassist, best frontman and
+                best EP.</p>
+            <p>In 2016 they are once again nominated in the Best EP category. Heck. Their live shows are somewhat hyper
+                and probably explains why they've played with Heck a few times now, as well as with the likes of
+                Bouncing Souls, Skindred, Therapy?, Alkaline Trio, Joey Cape, Blacklisters, Brawlers and a full UK tour
+                with Snuff and Bam Margera's Fuckface Impossible (You know, the one from Jackass who lets off fireworks
+                in his parents' bedroom).</p>
+            <p>Sounds like it's all kicking off then.</p>
+            <p> Well of course, it is.</p>
+            <p>With a few line up changes and a more honed sound that matches their live performances, Mr Shiraz are now
+                groove punks and invite you all
+                to join them for their latest EP '21 Grams'. It's an EP that defines the band right here right now
+                and is a fresh start after first LP 'I’m Invincible, I’m Built like A Sherman Tank Somebody Try &
+                Stop Me' and their last self titled EP. </p>
+            <p>With a track listing that references movies from decades past, there's obviously more to the EP than
+                what you see and hear on the surface.</p>
+        </p>
+        <p><q>In many ways the record is a concept</q> <cite>Mikey Shiraz</cite> says, delving deeper into the honesty around the
+            concept <q>It's about the fragility and fleetingness of youth and innocence; how what you are exposed to
+            in those formative years work as a blueprint and a foundation of the person you eventually become. For
+            us, it was 80/90's films. It’s a way by relating a situation to a moment in your life like a bookmark
+            where you can easily go back and use said subject as a reference to something that affected you. It also
+            works as somewhat of a safety blanket, being able to use this to give the situation (be it love, loss,
+            something amazing or distressing) a somewhat tongue in cheek feel. I don't know. Everyone has a
+            different blueprint this just happens to be mine</q>
+        </p>
+    </section>
+    <section>
+    <!-----Embedded Youtube video (Bands Latest Video)-->
+    <!--<h2>Latest Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=eC91xRKubDY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    --->
+    </section>
+    <!-------Footer-->
     
-</footer>
+    <footer class="container-fluid">
+           
+    
+                
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-spotify" aria-hidden="true"></i>
+                            <span class="sr-only">Spotify</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </footer>
+
+    
 
 
 
@@ -126,8 +179,13 @@
 
 
 
-<!----Bootstrap JQuery & Bundle-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!----Bootstrap JQuery & Bundle-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
