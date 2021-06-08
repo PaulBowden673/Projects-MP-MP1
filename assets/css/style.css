@@ -11,6 +11,10 @@
     color:red;
 }
 
+.hero-box{
+    margin: 0;
+    padding: 0;
+}
 
 .hero-image {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -19,8 +23,10 @@
     background-size: cover;
     position: relative;
     height: 400px;
-    width: 100vw;
-     
+    width: 100%;
+    
+    
+        
 }
 
 .hero-text {
@@ -37,7 +43,7 @@
     position: absolute;
     top: 57%;
     left: 40%;
-    tansform: translate( -50%, -50%);
+
 }
 h1 {
     font-size: 8rem;
@@ -49,8 +55,7 @@ h1 {
     margin: 4px;
 }
 
-
-
+    
 
 
 
