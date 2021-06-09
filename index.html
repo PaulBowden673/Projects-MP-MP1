@@ -19,17 +19,17 @@
 <header>
     <div class="container-fluid hero-box">
         <img class="hero-image" src="assets/images/hero-image-2.jpg">
-        <div class="hero-nav">
-            <nav>
+        <div class="hero-nav ">
+            <nav role="navigation">
                 <ul class="nav nav-pills justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link btn-danger active" href="#">Home</a>
+                        <a class=" flex-sm-fill nav-link btn-danger active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
+                        <a class=" flex-sm-fill nav-link" href="#">Music</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Book Us!</a>
+                        <a class="flex-sm-fill nav-link" href="#">Book Us!</a>
                     </li>
 
                 </ul>
@@ -39,7 +39,7 @@
 </header>
 
 <section>
-    <!---Sign up Modal-->
+    <!---Sign up Modal (Bootstrap)-->
     <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
         Up!</button>
 
@@ -80,7 +80,7 @@
 
 <body>
 
-    <!-----About (The Band)-->
+<!-----About (The Band)-->
     <section class="container-fluid about">
 
 
@@ -96,7 +96,7 @@
             <div class="card-group">
                 <div class="card">
                     <img class="card-img-top" src="/assets/images/tori.jpg" alt="Tori the bassist">
-                    <div class="card-body bg-danger">
+                    <div class="card-body red-card">
                         <h5 class="card-title">Bassist Tori Shiraz</h5>
                         <p class="card-text">Is a Philosophy genius and possibly the most intelligent person in the
                             world</p>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="/assets/images/mikey.jpg" alt="Mikey the lead singer">
-                    <div class="card-body bg-warning">
+                    <div class="card-body yellow-card">
                         <h5 class="card-title">Mikey Shiraz</h5>
                         <p class="card-text">Frontman Mikey once released a book of confessions of all the terrible
                             things he has done. His mother refuses to read it.</p>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="/assets/images/tim.jpg" alt="Tim the lead guitarist">
-                    <div class="card-body bg-danger">
+                    <div class="card-body red-card">
                         <h5 class="card-title">Tim Shiraz</h5>
                         <p class="card-text">Lead guitarist Tim looks like everyone in the world, apparantly. Examples
                             are Edward Norton, the dead body from stand by me,
@@ -125,10 +125,12 @@
                 </div>
             </div>
 
-
-            <img class="" src="/assets/images/band-image-1.jpg" alt="photo of Mr Shiraz playing">
-            <img class="" src="/assets/images/band-image-2.jpg" alt="photo of Mr Shiraz playing">
-
+        <div class="row no-gutters">
+            
+            <img class="image-fluid  col-sm-4" src="/assets/images/band-image-1.jpg" alt="photo of Mr Shiraz playing">
+            <img class="image-fluid  col-sm-4" src="/assets/images/band-image-9.jpg" alt="photo of Mr Shiraz playing">
+            <img class="image-fluid  col-sm-4" src="/assets/images/band-image-2.jpg" alt="photo of Mr Shiraz playing">
+        </div>
 
             <hr>
             <div class="col-12 text-center ">
@@ -150,7 +152,7 @@
             <p>Sounds like it's all kicking off then.</p>
         </div>
 
-        <img class="" src="/assets/images/band-image-3.jpg" alt="photo of Mr Shiraz playing">
+        <img class="image-fluid col-md-12 col-sm-4" src="/assets/images/band-image-3.jpg" alt="photo of Mr Shiraz playing">
 
         <div class="col-12 text-center">
             <p> Well of course, it is.</p>
@@ -181,18 +183,19 @@
                     different blueprint this just happens to be mine</q>
             </p>
         </div>
-        <div class="row">
-            <img class="col-sm-4" src="/assets/images/band-image-5.jpg">
-            <img class="col-sm-4" src="/assets/images/band-image-4.jpg">
-            <img class="col-sm-4" src="/assets/images/band-image-6.jpg">
+        <div class="row no-gutters">
+            <img class="image-fluid col-sm-4" src="/assets/images/band-image-5.jpg">
+            <img class="image-fluid col-sm-4" src="/assets/images/band-image-4.jpg">
+            <img class="image-fluid col-sm-4" src="/assets/images/band-image-6.jpg">
         </div>
         </div>
     </section>
     <section>
         <!-----Embedded Youtube video (Bands Latest Video)-->
-        <!--<h2>Latest Video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=eC91xRKubDY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    --->
+        <h2>Latest Video</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eC91xRKubDY?rel=0" allowfullscreen></iframe>
+      </div>
     </section>
     <!-------Footer-->
 
