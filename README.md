@@ -34,7 +34,7 @@ These can be found at the following links -
  - Albums - this feature displays Mr Shiraz's current album back catalog. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
  - Merch - this feature displays the bands current selection of merchandise and allows the user to click on image to purchase the item on Bandcamp
 
-### [Booking Page] (Https://github.com/PaulBowden673/Projects-Mp-MP1/booking.html)
+### [Booking Page] (Https://github.com/PaulBowden673/Projects-Mp-MP1/book.html)
  - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs or events.
 
 ## All Pages
