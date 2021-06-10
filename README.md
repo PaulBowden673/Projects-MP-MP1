@@ -48,7 +48,7 @@ These can be found at the following links -
  - **CSS**    - This was used to style the website
  - **Bootstrap** - This was used to get the website up and running quickly
 
-##Future updates
+## Future updates
 - Add music clips to allow users to listen to Mr Shiraz on the webpage rather than through external links
 - Add more video clips of the Band
 - Update Band Member profiles to include all band members not just key members
