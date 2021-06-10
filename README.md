@@ -16,7 +16,7 @@
 - Audio clips for visitors to listen to some of the bands songs
 - A video file so the visitors can view the band performing their latest video
 - A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
-- Information about the band and quotes from interviews done by Music magazines and Websites
+- Information about the key band members and photos of the band performing 
 - A bookings page so users can book the band for events
 - Social media links for users to follow to stay up to date with any news the band may have
 - I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience.
