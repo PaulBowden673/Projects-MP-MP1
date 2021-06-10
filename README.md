@@ -30,7 +30,7 @@ These can be found at the following links -
 ### [Home Page] (Https;//github.com/PaulBowden673/Projects-MP-MP1/h)
 - Embedded Youtube video
 
-### [Music Page] (https://github.com/PaulBowden673/Projects-MP-MP1/blob/5c01f411981c5bf743866323f8cdc8bd181a4c3b/music.html)
+### [Music Page] (https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
  - Albums - this feature displays Mr Shiraz's current album back catalog. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
  - Merch - this feature displays the bands current selection of merchandise and allows the user to click on image to purchase the item on Bandcamp
 
