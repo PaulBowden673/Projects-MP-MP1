@@ -1,6 +1,6 @@
 
 # Mr Shiraz
-Here's our logo (hover to see the title text):
+
 
 
 ![Mr Shiraz Logo](https://github.com/PaulBowden673/Projects-MP-MP1/blob/4571ca41cc2750dbe5775c26eb932ee8815e880d/assets/images/hero-image-2.jpg)
