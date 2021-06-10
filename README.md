@@ -1,6 +1,11 @@
 
 # Mr Shiraz
-( Add Hero Imaage)
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![Mr Shiraz Logo](https://github.com/PaulBowden673/Projects-MP-MP1/src/assets/images/hero-image-2.jpg "Logo Title Text 1")
+
+
 
 >I built this website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, It displays the bands albums and merchanise with links to purchase, Photos of the band members and quotes from Interviews and reviews of Mr Shiraz. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs and events. I have included video and audio files so thaat users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.
 ## UX
