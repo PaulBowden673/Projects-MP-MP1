@@ -3,7 +3,7 @@
 Here's our logo (hover to see the title text):
 
 
-![Mr Shiraz Logo](https://github.com/PaulBowden673/Projects-MP-MP1/assets/images/hero-image-2.jpg "Logo Title Text 1")
+![Mr Shiraz Logo](https://github.com/PaulBowden673/Projects-MP-MP1/assets/images/hero-image-2.jpg)
 
 
 
