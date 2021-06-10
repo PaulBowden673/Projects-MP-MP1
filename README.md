@@ -42,6 +42,7 @@ These can be found at the following links -
 ## All Pages
 - Sign Up button and Modal - this allows users to sign up with their email address and register to receive information on new music releases, gigs, etc.
 - Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify and Youtube for all the latest news
+
 ## Technologies Used
  - **HTML5**  - This was used for the layout of the website
  - **CSS**    - This was used to style the website
@@ -51,6 +52,7 @@ These can be found at the following links -
 - Add music clips to allow users to listen to Mr Shiraz on the webpage rather than through external links
 - Add more video clips of the Band
 - Update Band Member profiles to include all band members not just key members
+- Change band logo/Hero image to one showing the band rather than the stock Logo image that they have
 
 ## Testing
  I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
