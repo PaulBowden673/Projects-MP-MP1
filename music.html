@@ -23,13 +23,13 @@
             <nav>
                 <ul class="nav nav-pills justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link btn-danger active" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
+                        <a class="nav-link btn-danger active" href="music.html">Music</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Book Us!</a>
+                        <a class="nav-link" href="book.html">Book Us!</a>
                     </li>
 
                 </ul>
@@ -55,22 +55,22 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email"
-                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="Enter first name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname" aria-describedby="Enter last name" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-address">Email address</label>
+                            <input type="email" class="form-control" id="email-address"
+                                aria-describedby="emailHelp" placeholder="Enter Email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password" required>
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                                                
+                        <button type="submit" class="btn submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -82,7 +82,7 @@
 
     <!-----Album cards-->
     <section>
-        <h3>Music</h3>
+        <h3>Music <i class="fa fa-music" aria-hidden="true"></i></h3>
 
         <div class="card-deck container-fluid ">
             <div class="row">
@@ -141,7 +141,7 @@
     <hr>
     <!-----Merchandise cards-->
     <section class="merch">
-        <h3>Merch</h3>
+        <h3>Merch <i class="fa fa-shopping-cart" aria-hidden="true"></i></h3><p><i>All Links open in BandCamp.com</i></p>
 
         <div class="card-deck container-fluid">
             <div class="row">
@@ -149,7 +149,8 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <img class="card-img-top" src="/assets/images/tshirt-1.jpg" alt="Mr Shiraz T-Shirt">
-                            <a href="#" class="btn btn-primary stretched-link">Buy T-Shirt</a>
+                            <p>Ill Behaviour T-Shirt</p>
+                            <a target="_blank" href="https://mrshiraz.bandcamp.com/merch/ill-behaviour-shirt-w-free-xx-20-year-retrospective   " class="btn btn-primary stretched-link">Buy T-Shirt</a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +158,8 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <img class="card-img-top" src="/assets/images/tshirt-2.jpg" alt="<r Shiraz T-Shirt">
-                        <a href="#" class="btn btn-primary stretched-link">Buy T-Shirt</a>
+                        <p>Oh Lawd T--Shirt</p>
+                            <a href="https://mrshiraz.bandcamp.com/merch/oh-lawd-shirt-w-free-xx-20-year-retrospective-download" class="btn btn-primary stretched-link">Buy T-Shirt</a>
                     </div>
                 </div>
                 </div>

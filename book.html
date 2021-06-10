@@ -23,13 +23,13 @@
             <nav>
                 <ul class="nav nav-pills justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link btn-danger active" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
+                        <a class="nav-link" href="music.html">Music</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Book Us!</a>
+                        <a class="nav-link btn-danger active" href="book.html">Book Us!</a>
                     </li>
 
                 </ul>
@@ -55,22 +55,22 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="Enter first name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname" aria-describedby="Enter last name" placeholder="Last Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email-address">Email address</label>
+                            <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter Email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        
+                        <button type="submit" class="btn submit">Submit</button>
                     </form>
                 </div>
             </div>

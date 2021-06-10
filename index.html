@@ -23,13 +23,13 @@
             <nav role="navigation">
                 <ul class="nav nav-pills justify-content-center">
                     <li class="nav-item">
-                        <a class=" flex-sm-fill nav-link btn-danger active" href="#">Home</a>
+                        <a class=" flex-sm-fill nav-link btn-danger active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class=" flex-sm-fill nav-link" href="#">Music</a>
+                        <a class=" flex-sm-fill nav-link" href="music.html">Music</a>
                     </li>
                     <li class="nav-item">
-                        <a class="flex-sm-fill nav-link" href="#">Book Us!</a>
+                        <a class="flex-sm-fill nav-link" href="book.html">Book Us!</a>
                     </li>
 
                 </ul>
@@ -55,22 +55,23 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="Enter first name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname" aria-describedby="Enter last name" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-address">Email address</label>
+                            <input type="email" class="form-control" id="email-address"
+                                aria-describedby="email-help" placeholder="Enter Email">
+                            <small id="email-help" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        
+                        <button type="submit" class="btn submit" action="https://formdump.codeinstitute.net/"
+                            method="post">Submit</button>
                     </form>
                 </div>
             </div>
@@ -80,18 +81,19 @@
 
 <body>
 
-<!-----About (The Band)-->
+    <!-----About (The Band) Bootstrap Card Deck-->
     <section class="container-fluid about">
 
 
 
-        <p>Who is MR SHIRAZ? I don't think that mystery will ever actually be solved and it's a question that
+        <p class="text-center">Who is MR SHIRAZ? I don't think that mystery will ever actually be solved and it's a
+            question that
             will
             probably generate multiple, misleading answers every time it's asked. Why's that, you ask? Well,
             when asked
             for some facts about the band, this is what they gave us...</p>
 
-        <h4> (DISCLAIMER - ALL OF THE FOLLOWING IS TRUE)</h4>
+        <h4 class="text-center"> (DISCLAIMER - ALL OF THE FOLLOWING IS TRUE)</h4>
         <div class="row">
             <div class="card-group">
                 <div class="card">
@@ -125,19 +127,22 @@
                 </div>
             </div>
 
-        <div class="row no-gutters">
-            
-            <img class="image-fluid  col-sm-4" src="/assets/images/band-image-1.jpg" alt="photo of Mr Shiraz playing">
-            <img class="image-fluid  col-sm-4" src="/assets/images/band-image-9.jpg" alt="photo of Mr Shiraz playing">
-            <img class="image-fluid  col-sm-4" src="/assets/images/band-image-2.jpg" alt="photo of Mr Shiraz playing">
-        </div>
+            <div class="row no-gutters">
+
+                <img class="image-fluid  col-sm-4" src="/assets/images/band-image-1.jpg"
+                    alt="photo of Mr Shiraz playing">
+                <img class="image-fluid  col-sm-4" src="/assets/images/band-image-9.jpg"
+                    alt="photo of Mr Shiraz playing">
+                <img class="image-fluid  col-sm-4" src="/assets/images/band-image-2.jpg"
+                    alt="photo of Mr Shiraz playing">
+            </div>
 
             <hr>
             <div class="col-12 text-center ">
-                <p> And of course, there's a Facebook page.</p>
+                <p> And of course, there's a Facebook page <a target="_blank" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></p>
 
                 <p>Despite being absolutely ridiculous, they should also be taken rather seriously.
-                <p>They were the winner of the best single at the Pure Rawk Awards and they were also nominated for
+                    <p>They were the winner of the best single at the Pure Rawk Awards and they were also nominated for
                         best
                         bassist, best frontman and
                         best EP.</p>
@@ -152,7 +157,8 @@
             <p>Sounds like it's all kicking off then.</p>
         </div>
 
-        <img class="image-fluid col-md-12 col-sm-4" src="/assets/images/band-image-3.jpg" alt="photo of Mr Shiraz playing">
+        <img class="image-fluid col-md-12 col-sm-4" src="/assets/images/band-image-3.jpg"
+            alt="photo of Mr Shiraz playing">
 
         <div class="col-12 text-center">
             <p> Well of course, it is.</p>
@@ -190,19 +196,20 @@
         </div>
         </div>
     </section>
+
+
+    <!-----Bootstrap Embedded Youtube Video (Bands Latest Video)-->
+
     <section>
-        <!-----Embedded Youtube video (Bands Latest Video)-->
-        <h2>Latest Video</h2>
+        <h2>Latest Video <i class="fa fa-film" aria-hidden="true"></i></h2> 
         <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eC91xRKubDY?rel=0" allowfullscreen></iframe>
-      </div>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eC91xRKubDY?rel=0"
+                allowfullscreen></iframe>
+        </div>
     </section>
     <!-------Footer-->
 
     <footer class="container-fluid">
-
-
-
         <ul class="list-inline social-links">
             <li class="list-inline-item">
                 <a target="_blank" href="#">

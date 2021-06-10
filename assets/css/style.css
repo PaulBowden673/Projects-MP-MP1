@@ -17,7 +17,21 @@ div q {
     color: yellow;
 }
 
+p a i {
+    color: white;
+}
 
+.merch p {
+    color:white;
+}
+
+.card-deck p {
+    color: red;
+}
+
+.submit {
+    background-color: red;
+}
 
 /*---------------Hero Image and Nav*/
 .nav-link {
@@ -50,14 +64,21 @@ div q {
     background-color: red;
 }
 .modal-header {
+    background-color: lightblue;
+    color: red;
+    
+}
+
+.modal-body {
+    background-color: lightblue;
+    color: red;
+}
+
+.modal .submit {
     background-color: red;
     color: white;
 }
 
-.modal-body {
-    background-color: red;
-    color: white;
-}
 
 
 
