@@ -13,7 +13,7 @@
 
 **I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
 
-- Audio clips for visitors to listen to some of the bands songs
+- Links to buy the Band's Albums and Merchandise through BandCamp.com
 - A video file so the visitors can view the band performing their latest video
 - A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
 - Information about the key band members and photos of the band performing 
@@ -27,23 +27,31 @@ These can be found at the following links -
 
 ## Features
 
-### [Home Page] (Https;//github.com/PaulBowden673/Projects-MP-MP1/h)
+### [Home Page] (Https;//github.com/PaulBowden673/Projects-MP-MP1/index.html)
 - Embedded Youtube video
+- Card group of Band Members
 
 ### [Music Page] (https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
  - Albums - this feature displays Mr Shiraz's current album back catalog. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
  - Merch - this feature displays the bands current selection of merchandise and allows the user to click on image to purchase the item on Bandcamp
+ - Bootstrap Card-deck to display thge Music and Merchandise links
 
 ### [Booking Page] (Https://github.com/PaulBowden673/Projects-Mp-MP1/book.html)
  - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs or events.
 
 ## All Pages
-- Sign Up button - this allows users to sign up with their email address and register to receive information on new music releases, gigs, etc.
+- Sign Up button and Modal - this allows users to sign up with their email address and register to receive information on new music releases, gigs, etc.
 - Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify and Youtube for all the latest news
 ## Technologies Used
  - **HTML5**  - This was used for the layout of the website
  - **CSS**    - This was used to style the website
  - **Bootstrap** - This was used to get the website up and running quickly
+
+##Future updates
+- Add music clips to allow users to listen to Mr Shiraz on the webpage rather than through external links
+- Add more video clips of the Band
+- Update Band Member profiles to include all band members not just key members
+
 ## Testing
  I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
 
@@ -60,16 +68,17 @@ All files passed validation testing at
 ## Deployment 
 
 ## Credits
-Where photos, video, text taken from
+
 ### Content
-Text
+- Home page text sourched from Mr Shiraz Facebook page
 ### Media
-Video, audio
+- Photos sourced from Mr Shiraz Facebook page
+- Video sourced from YouTube
 ## Acknowledgements
 - [Code Institute](https://www.codeinstitute.net/)
 - Newcastle College
 - Mikey (Shiraz) Baird for allowing me to use information about the band, photos and videos 
-- Bootstrap
+- Bootstrap - framwork, Modal, Card-decks
 - Youtube  - embedded video
 ## References 
 Omly needed iff there are more refenrcess than i can list on README
