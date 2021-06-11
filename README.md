@@ -13,7 +13,7 @@
 
 **I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
 
-- Links to buy the Band's Albums and Merchandise through BandCamp.com
+- A Music page with links to buy the Band's Albums and Merchandise through BandCamp.com
 - A video file so the visitors can view the band performing their latest video
 - A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
 - Information about the key band members and photos of the band performing 
