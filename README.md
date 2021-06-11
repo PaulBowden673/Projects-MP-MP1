@@ -29,7 +29,7 @@ These can be found at the following links
 
 ## Features
 
-### [Home Page] (Https;//github.com/PaulBowden673/Projects-MP-MP1/index.html)
+### [Home Page] (Https://github.com/PaulBowden673/Projects-MP-MP1/index.html)
 - Embedded Youtube video
 - Card deck of Band Members
 
