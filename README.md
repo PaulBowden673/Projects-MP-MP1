@@ -74,7 +74,7 @@ All files passed validation testing at
 ## Credits
 
 ### Content
-- Home page text sourched from Mr Shiraz Facebook page
+- Home page text sourced from Mr Shiraz Facebook page
 ### Media
 - Photos sourced from Mr Shiraz Facebook page
 - Video sourced from YouTube
