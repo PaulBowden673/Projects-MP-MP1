@@ -31,7 +31,7 @@ These can be found at the following links
 
 ### [Home Page] (Https;//github.com/PaulBowden673/Projects-MP-MP1/index.html)
 - Embedded Youtube video
-- Card group of Band Members
+- Card deck of Band Members
 
 ### [Music Page] (https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
  - Albums - this feature displays Mr Shiraz's current album back catalog. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
