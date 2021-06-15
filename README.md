@@ -25,7 +25,7 @@
 ## Wireframe Mockups 
 These can be found at the following links 
 
-- (https://github.com/PaulBowden673/Projects-MP-MP1/blob/5ec6cc39dd1995c9fff371dfdbeaf7148ea24afc/Mr%20Shiraz%20responsive%20Website%20(1).pdf)
+- (https://github.com/PaulBowden673/Projects-MP-MP1/blob/e00de78290d5fd58c35f86af08b8f9931a430353/Mr%20Shiraz%20responsive%20Website%20(3).pdf)
 
 ## Features
 
