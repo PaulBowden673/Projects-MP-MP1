@@ -1,5 +1,5 @@
-
-/*----------------General*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+/*--------------------------------------------------------General*/
 
 *{
     margin:0;
@@ -7,37 +7,40 @@
     border:0;
 }
 
-/*----------------------Colors*/
+/*--------------------------------------------------------Colors*/
 
 .about p, h2, h4 {
-    color: white;
+    color: #fcfcfc;
 }
 
 div q {
-    color: yellow;
+    color: #fcfcfc;
 }
 
 p a i {
-    color: white;
+    color: #fcfcfc;
 }
 
-.merch p {
-    color:white;
+.music p, .merch p {
+    color:#fcfcfc;
 }
 
 .card-deck p {
-    color: red;
+    color: #E40F0F;
 }
 
-.submit {
-    background-color: red;
+.btn-primary {
+    background-color: #950808;
 }
-
-/*---------------Hero Image and Nav*/
+/*------------------------------------------Hero Image and Nav*/
 .nav-link {
-    color:red;
+    color:#E40F0F;
 }
 
+
+.nav-link:hover {
+    background-color: #E40F0F;
+}
 
 
 
@@ -55,71 +58,96 @@ p a i {
     width: 100%;
 }
 
-/*------------------Sign Up Modal*/
+/*---------------------------------------------------Sign Up Modal*/
 #sign-up {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 4px;
-    background-color: red;
+    margin: 1rem;
+    
+    background-color: #950808;
 }
 .modal-header {
-    background-color: lightblue;
-    color: red;
+    background-color: #950808;
+    color: #fcfcfc;
     
 }
 
 .modal-body {
-    background-color: lightblue;
-    color: red;
+    background-color: #950808;
+    color: #fcfcfc;
 }
 
 .modal .submit {
-    background-color: red;
-    color: white;
+    background-color: #33cc33;
+    color: #950808;
 }
 
 
 
 
-/*--------------------All Pages*/
+/*--------------------------------------------------------All Pages*/
 
 body {
     background-color: black;
 }
 
-h3 {
-    color: white;
+h5 {
+    font-family: "Anton", sans-serif;
+    color: #fcfcfc;
+}
+h2 {
+    font-family: "Anton", sans-serif;
+    font-size: xx-large;
+    color: #fcfcfc;
 }
 
-/*----------------------Home Page Cards*/
-
-.yellow-card {
-    background-color: yellow;
+p {
+    font-family: "Roboto", sans-serif;
 }
+
+li a {
+    font-family: "Anton", sans-serif;
+    font-size:x-large;
+}
+/*--------------------------------------------------------Home Page*/
 
 .red-card {
-    background-color: red;
+    background-color: #950808;
 }
 
-
-/*-------------Music page cards*/
-
-/*card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;    
-}
-merch img {
-    height: 15vw;
+.sub-title {
+    margin-top: 1rem;
 }
 
+/*---------------------------------------------------------Music Page*/
 
-/*------------------Footer----*/
+.music p, .music h2, .merch p, .merch h2 {
+    margin-left: 1rem;
+}
+.music .card-body, .merch .card-body {
+    background-color: lightgray;
+}
+/*---------------------------------------------------------Booking Form*/
+
+.border {
+    border: 1px solid #fff;
+    margin: 10% 20% 10% 20%;
+    Padding: 2px;
+    color: #fcfcfc;
+    background-color: #950808;
+}   
+
+.border .btn-primary {
+    background-color: #33cc33;
+    color: #950808;
+}
+
+/*----------------------------------------------------------Footer----*/
 
 footer {
-    background-color: red;
-    color: white;
+    background-color: #950808;
+    color: #fff;
     min-height: 120px;
     margin: 0;
     postion: fixed;
@@ -140,7 +168,7 @@ footer {
     font-size: 18px;
     line-height: 7px;
     text-align: center;
-    color: white;
+    color: #fff;
     margin-top:40px;
     background: black;
     transition: all 0.35s ease-in-out;
@@ -150,8 +178,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: blue;
-}
+    background: #E40F0F;
 
 #footer-details {
     padding: 20px;
