@@ -29,21 +29,16 @@ p a i {
     color: #E40F0F;
 }
 
-.btn-primary {
-    background-color: #950808;
-}
+
+
 /*------------------------------------------Hero Image and Nav*/
-.nav-link {
+.nav-link  {
     color:#E40F0F;
 }
 
-
 .nav-link:hover {
-    background-color: #E40F0F;
+    color: #950808;
 }
-
-
-
 .hero-box{
     margin: 0;
     padding: 0;
