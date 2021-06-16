@@ -34,7 +34,9 @@ p a i {
 /*------------------------------------------Hero Image and Nav*/
 .nav-link  {
     color:#E40F0F;
+    
 }
+
 
 .nav-link:hover {
     color: #950808;
@@ -127,7 +129,7 @@ li a {
 
 .border {
     border: 1px solid #fff;
-    margin: 10% 20% 10% 20%;
+    margin: 10% 10% 10% 10%;
     Padding: 2px;
     color: #fcfcfc;
     background-color: #950808;
@@ -136,6 +138,29 @@ li a {
 .border .btn-primary {
     background-color: #33cc33;
     color: #950808;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 87px;
+    right: 3px; 
+    z-index: 99;
+    width: 40px; 
+    border: none; 
+    outline: none;
+    background-color: #A9A9A9; 
+    color: #fff; 
+    cursor: pointer;
+    padding: 10px; 
+    border-radius: 10px;
+    font-size: 8px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+    color: #fff;
 }
 
 /*----------------------------------------------------------Footer----*/
@@ -177,4 +202,12 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*--------------------------------Media Queries*/
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
 }
