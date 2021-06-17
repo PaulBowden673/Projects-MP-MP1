@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*--------------------------------------------------------General*/
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /*--------------------------------------------------------Colors*/
 
-.about p, h2, h4 {
+.about p,
+h2,
+h4 {
     color: #fcfcfc;
 }
 
@@ -21,27 +24,27 @@ p a i {
     color: #fcfcfc;
 }
 
-.music p, .merch p {
-    color:#fcfcfc;
+.music p,
+.merch p {
+    color: #fcfcfc;
 }
 
 .card-deck p {
     color: #E40F0F;
 }
 
-
-
 /*------------------------------------------Hero Image and Nav*/
-.nav-link  {
-    color:#E40F0F;
-    
+.nav-link {
+    color: #E40F0F;
+
 }
 
 
 .nav-link:hover {
     color: #950808;
 }
-.hero-box{
+
+.hero-box {
     margin: 0;
     padding: 0;
 }
@@ -60,14 +63,15 @@ p a i {
     position: absolute;
     top: 0;
     right: 0;
-    
-    
+
+
     background-color: #950808;
 }
+
 .modal-header {
     background-color: #950808;
-    color: #fcfcfc;  
-    
+    color: #fcfcfc;
+
 }
 
 .modal-body {
@@ -80,19 +84,18 @@ p a i {
     color: #950808;
 }
 
-
-
-
 /*--------------------------------------------------------All Pages*/
 
 body {
     background-color: black;
+
 }
 
 h5 {
     font-family: "Anton", sans-serif;
     color: #fcfcfc;
 }
+
 h2 {
     font-family: "Anton", sans-serif;
     font-size: xx-large;
@@ -101,12 +104,16 @@ h2 {
 
 p {
     font-family: "Roboto", sans-serif;
+
+
+
 }
 
 li a {
     font-family: "Anton", sans-serif;
-    font-size:x-large;
+    font-size: x-large;
 }
+
 /*--------------------------------------------------------Home Page*/
 
 .red-card {
@@ -117,16 +124,20 @@ li a {
     margin-top: 1rem;
 }
 
-
-
 /*---------------------------------------------------------Music Page*/
 
-.music p, .music h2, .merch p, .merch h2 {
+.music p,
+.music h2,
+.merch p,
+.merch h2 {
     margin-left: 1rem;
 }
-.music .card-body, .merch .card-body {
+
+.music .card-body,
+.merch .card-body {
     background-color: lightgray;
 }
+
 /*---------------------------------------------------------Booking Form*/
 
 .border {
@@ -134,36 +145,32 @@ li a {
     margin: 10% 5% 10% 5%;
     color: #fcfcfc;
     background-color: #950808;
-}   
+}
 
 .border .btn-primary {
     background-color: #33cc33;
     color: #950808;
 }
 
-.form-row {
-
-}
-
 #myBtn {
     display: none;
-    position: fixed; 
+    position: fixed;
     bottom: 87px;
-    right: 3px; 
+    right: 3px;
     z-index: 99;
-    width: 40px; 
-    border: none; 
+    width: 40px;
+    border: none;
     outline: none;
-    background-color: #A9A9A9; 
-    color: #fff; 
+    background-color: #A9A9A9;
+    color: #fff;
     cursor: pointer;
-    padding: 10px; 
+    padding: 10px;
     border-radius: 10px;
-    font-size: 8px; 
-  }
-  
-  #myBtn:hover {
-    background-color: #555; 
+    font-size: 8px;
+}
+
+#myBtn:hover {
+    background-color: #555;
     color: #fff;
 }
 
@@ -181,7 +188,7 @@ footer {
 .social-links {
     padding-bottom: 15px;
     text-align: center;
-    
+
 }
 
 .social-links li a i {
@@ -193,7 +200,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fff;
-    margin-top:40px;
+    margin-top: 40px;
     background: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -204,8 +211,7 @@ footer {
 .social-links li a i:hover {
     background: #E40F0F;
 
-#footer-details {
-    padding: 20px;
-}
+    #footer-details {
+        padding: 20px;
+    }
 
-/*--------------------------------Media Queries*/

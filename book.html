@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!------Bootstrap CSS-->
+    <!------------------------------------------------------------Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
@@ -18,7 +18,7 @@
 </head>
 <header>
     <div class="container-fluid hero-box">
-        <img class="hero-image" src="assets/images/hero-image-2.jpg">
+        <img class="hero-image" src="assets/images/hero-image-2.jpg" alt="Mr Shiraz Logo">
         <div class="hero-nav">
             <nav>
                 <ul class="nav nav-pills justify-content-center">
@@ -39,8 +39,9 @@
 </header>
 
 <body>
+    <!--------------------------------------------Bootstrap Sign up Modal-->
     <section>
-        <!---Sign up Modal-->
+
         <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
             Up!</button>
 
@@ -58,18 +59,18 @@
                             <div class="form-group">
                                 <label for="fname">First Name</label>
                                 <input type="text" class="form-control" id="fname" aria-describedby="Enter first name"
-                                    placeholder="First Name" required>
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="lname">Last Name</label>
                                 <input type="text" class="form-control" id="lname" aria-describedby="Enter last name"
-                                    placeholder="Last Name" required>
+                                    required>
                             </div>
 
                             <div class="form-group">
                                 <label for="email-address">Email address</label>
                                 <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
-                                    placeholder="Enter Email">
+                                    required>
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone
                                     else.</small>
@@ -82,52 +83,55 @@
             </div>
         </div>
     </section>
+    <!-------------------------------------------------------Booking Form-->
     <section class="container-fluid">
 
         <form class="border">
             <legend class="text-center">Booking Enquiry</legend>
             <div class="form-row mx-2">
-            <div class="form-group col-md-6">
-                <label for="fname">First Name</label>
-                <input class="form-control" type="text" name="fname" id="fname" maxlength="10" required>
-            </div>
-            <div class="form-group col-md-6">
-                <label for="lname">Last Name</label>
-                <input class="form-control" type="text" name="lname" id="lname" maxlength='20' required>
-            </div>
-            
-            <div class="form-group col-md-6 ">
-                <label for="email">Email Address</label>
-                <input class="form-control" type="email" name="email" id="email" required>
-            </div>
-            <div class="form-group col-md-6 ">
-                <label for="telephone">Telephone number</label>
-                <input class="form-control" type="tel" name="telephone" id="telephone" maxlength="12" required>
-            </div>
+                <div class="form-group col-md-6">
+                    <label for="fname">First Name</label>
+                    <input class="form-control" type="text" name="fname" id="fname" maxlength="10"
+                        aria-label="first name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lname">Last Name</label>
+                    <input class="form-control" type="text" name="lname" id="lname" maxlength='20'
+                        aria-label="last name" required>
+                </div>
+
+                <div class="form-group col-md-6 ">
+                    <label for="email">Email Address</label>
+                    <input class="form-control" type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group col-md-6 ">
+                    <label for="telephone">Telephone number</label>
+                    <input class="form-control" type="tel" name="telephone" id="telephone" maxlength="12" required>
+                </div>
             </div>
             <div class="form-row mx-2 align-items-center">
-            <div class="form-group col-md-6">
-                <label for="date">Date</label>
-                <input class="form-control" type="date" name="date" id="date" required>
-            </div>
+                <div class="form-group col-md-6">
+                    <label for="date">Date</label>
+                    <input class="form-control" type="date" name="date" id="date" required>
+                </div>
 
-            <div class="text-center mx-md-auto">
-                <div class="check-box form-check form-check-inline col-auto">
-                    <input class="form-check-input" type="checkbox" name="event" id="event" value="Event">
-                    <label class="form-check-label" for="event">Event</label>
+                <div class="text-center mx-md-auto">
+                    <div class="check-box form-check form-check-inline col-auto">
+                        <input class="form-check-input" type="checkbox" name="event" id="event" value="Event">
+                        <label class="form-check-label" for="event">Event</label>
+                    </div>
+                    <div class="form-check form-check-inline col-auto">
+                        <input class="form-check-input" type="checkbox" name="gig" id="gig" value="Gig">
+                        <label class="form-check-label" for="gig">Gig</label>
+                    </div>
+                    <div class="form-check form-check-inline col-auto">
+                        <input class="form-check-input" type="checkbox" name="festival" id="festival" value="Festival">
+                        <label class="form-check-label" for="festival">Festival</label>
+                    </div>
                 </div>
-                <div class="form-check form-check-inline col-auto">
-                    <input class="form-check-input" type="checkbox" name="gig" id="gig" value="Gig">
-                    <label class="form-check-label" for="gig">Gig</label>
-                </div>
-                <div class="form-check form-check-inline col-auto">
-                    <input class="form-check-input" type="checkbox" name="festival" id="festival" value="Festival">
-                    <label class="form-check-label" for="festival">Festival</label>
-                </div>
-            </div>
             </div>
             <div class="form-group col-auto ">
-                <label for="details">Enquiry Description</label>
+                <label for="details">Enquiry Details</label>
                 <textarea class="form-control" name="details" id="details" rows="8" required></textarea>
             </div>
             <div class="form-group col-auto">
@@ -138,8 +142,7 @@
     </section>
     <!--------------------------------------------------Back to Top Button-->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
-    <!------------------------------------------------------------Footer-->
-
+    <!--------------------------------------------------------------Footer-->
     <footer class="container-fluid">
         <ul class="list-inline social-links">
             <li class="list-inline-item">
@@ -182,17 +185,14 @@
         </div>
         </div>
     </footer>
-
-
-    
-    <!----Bootstrap JQuery & Bundle-->
+    <!-------------------------------------------Bootstrap JQuery & Bundle-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-    <!----------------------w3schools.com Back to Top Button JavaScript code-->
+    <!--------------------w3schools.com Back to Top Button JavaScript code-->
     <script>
         mybutton = document.getElementById("myBtn");
 

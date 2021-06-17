@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---------------------------------------Bootstrap CSS-->
+    <!-------------------------------------------------------Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
@@ -18,7 +18,7 @@
 </head>
 <header>
     <div class="container-fluid hero-box">
-        <img class="hero-image" src="assets/images/hero-image-2.jpg">
+        <img class="hero-image" src="assets/images/hero-image-2.jpg" alt="Mr Shiraz Logo">
         <div class="hero-nav">
             <nav>
                 <ul class="nav nav-pills justify-content-center">
@@ -38,107 +38,127 @@
     </div>
 </header>
 
-<section>
-    <!---Sign up Modal-->
-    <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
-        Up!</button>
+<body>
+    <!---------------------------------------------Bootstrap Sin Up Modal-->
+    <section>
+        <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
+            Up!</button>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign Up to Mr Shiraz's Mailing List!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="fname">First Name</label>
-                            <input type="text" class="form-control" id="fname" aria-describedby="Enter first name" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="lname">Last Name</label>
-                            <input type="text" class="form-control" id="lname" aria-describedby="Enter last name" placeholder="Last Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email-address">Email address</label>
-                            <input type="email" class="form-control" id="email-address"
-                                aria-describedby="emailHelp" placeholder="Enter Email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                                                
-                        <button type="submit" class="btn submit">Submit</button>
-                    </form>
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign Up to Mr Shiraz's Mailing List!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" id="fname" aria-describedby="Enter first name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" class="form-control" id="lname" aria-describedby="Enter last name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-address">Email address</label>
+                                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
+                                    required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+
+                            <button type="submit" class="btn submit">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<body>
-
+    </section>
     <!-----------------------------------Music cards-->
     <section class="music">
         <h2 class="sub-title">Music <i class="fa fa-music" aria-hidden="true"></i></h2>
-        <p>All Links open in BandCamp.com</p>
+        <p><i>All Links open in BandCamp.com</i></p>
 
         <div class="card-deck container-fluid ">
             <div class="row">
                 <div class="col-md-4 col-sm-4">
-                    <div class="card " >
+                    <div class="card ">
                         <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/iam-invincible.jpg">
-                            <p>I'm Invincible            EP</p>
-                            <a target="_blank" href=" https://mrshiraz.bandcamp.com/album/im-invincible-im-built-like-a-sherman-tank-somebody-try-stop-me " class="btn btn-primary stretched-link">Buy Album</a>
+                            <img class="card-img-top" src="/assets/images/iam-invincible.jpg"
+                                alt="Mr Shiraz I'm Invincible, I'm Built like a Sherman Tank, Somebody Try and Stop Me albumm cover">
+                            <p aria-hidden="true">I'm Invincible EP</p>
+                            <a target="_blank"
+                                href=" https://mrshiraz.bandcamp.com/album/im-invincible-im-built-like-a-sherman-tank-somebody-try-stop-me "
+                                class="btn btn-primary stretched-link"
+                                aria-label="Buy Mr Shiraz I'm Invincible Album">Buy Album</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <div class="card " >
+                    <div class="card ">
                         <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/mountians-of-kong.jpg">
-                            <p>Mountians Of Kong</p>
-                            <a target="_blank" href=" https://mrshiraz.bandcamp.com/album/mountains-of-kong" class="btn btn-primary stretched-link">Buy Album</a>
+                            <img class="card-img-top" src="/assets/images/mountians-of-kong.jpg"
+                                alt="Mr Shiraz Mountains Of Kong album cover">
+                            <p aria-hidden="true">Mountians Of Kong</p>
+                            <a target="_blank" href=" https://mrshiraz.bandcamp.com/album/mountains-of-kong"
+                                class="btn btn-primary stretched-link"
+                                aria-label="Buy Mr Shiraz Mountains Of Kong Album">Buy Album</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <div class="card " >
+                    <div class="card ">
                         <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/21-grams.jpg">
-                            <p>21 Grams Special Edition</p>
-                            <a target="_blank" href="https://mrshiraz.bandcamp.com/album/21-grams-3" class="btn btn-primary stretched-link">Buy Album</a>
+                            <img class="card-img-top" src="/assets/images/21-grams.jpg"
+                                alt="Mr Shiraz 21 Grams Special Edition album cover">
+                            <p aria-hidden="true">21 Grams Special Edition</p>
+                            <a target="_blank" href="https://mrshiraz.bandcamp.com/album/21-grams-3"
+                                class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz 21 Grams Album">Buy
+                                Album</a>
                         </div>
                     </div>
-                    <hr>  
+                    <hr>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <div class="card " >
+                    <div class="card ">
                         <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/god-hates-mr-shiraz.jpg">
-                            <p>God Hates Mr Shiraz</p>
-                            <a target="_blank" href="https://mrshiraz.bandcamp.com/album/god-hates-mr-shiraz" class="btn btn-primary stretched-link">Buy Album</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="card " >
-                        <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/nellys-kitchen.jpg">
-                            <p>Nelly's Kitchen         EP</p>
-                            <a target="_blank" href=" https://mrshiraz.bandcamp.com/album/nellys-kitchen-2 " class="btn btn-primary stretched-link">Buy Album</a>
+                            <img class="card-img-top" src="/assets/images/god-hates-mr-shiraz.jpg"
+                                alt="Mr Shiraz God Hates Mr Shiraz album cover">
+                            <p aria-hidden="true">God Hates Mr Shiraz</p>
+                            <a target="_blank" href="https://mrshiraz.bandcamp.com/album/god-hates-mr-shiraz"
+                                class="btn btn-primary stretched-link"
+                                aria-label="Buy Mr Shiraz God Hates Mr Shiraz Album">Buy Album</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <div class="card" >
+                    <div class="card ">
                         <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/mr-shiraz-album.jpg">
-                            <p>Mr Shiraz  Self Titled</p>
-                            <a target="_blank" href="https://mrshiraz.bandcamp.com/album/mr-shiraz-self-titled" class="btn btn-primary stretched-link">Buy Album</a>
+                            <img class="card-img-top" src="/assets/images/nellys-kitchen.jpg"
+                                alt="Mr Shiraz Nelly's Kitchen album cover">
+                            <p aria-hidden="true">Nelly's Kitchen EP</p>
+                            <a target="_blank" href=" https://mrshiraz.bandcamp.com/album/nellys-kitchen-2 "
+                                class="btn btn-primary stretched-link"
+                                aria-label="Buy Mr Shiraz Nelly's Kitchen Album">Buy Album</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="card-img-top" src="/assets/images/mr-shiraz-album.jpg"
+                                alt="Mr Shiraz Self-Titled album cover">
+                            <p aria-hidden="true">Mr Shiraz Self Titled</p>
+                            <a target="_blank" href="https://mrshiraz.bandcamp.com/album/mr-shiraz-self-titled"
+                                class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz Self Titled Album">Buy
+                                Album</a>
                         </div>
                     </div>
                 </div>
@@ -147,9 +167,9 @@
         </div>
     </section>
     <hr>
-    <!------------------------------------Merchandise cards-->
+    <!--------------------------------------------------Merchandise cards-->
     <section class="merch">
-        <h2 class="sub-title">Merch <i class="fa fa-shopping-cart" aria-hidden="true"></i></h2>
+        <h2 class="sub-title">Merchandise <i class="fa fa-shopping-cart" aria-hidden="true"></i></h2>
         <p><i>All Links open in BandCamp.com</i></p>
 
         <div class="card-deck container-fluid">
@@ -157,42 +177,50 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img class="card-img-top" src="/assets/images/tshirt-1.jpg" alt="Mr Shiraz T-Shirt">
-                            <p>Ill Behaviour T-Shirt</p>
-                            <a target="_blank" href="https://mrshiraz.bandcamp.com/merch/ill-behaviour-shirt-w-free-xx-20-year-retrospective   " class="btn btn-primary stretched-link">Buy T-Shirt</a>
+                            <img class="card-img-top" src="/assets/images/tshirt-1.jpg"
+                                alt="Mr Shiraz Ill BehaviourT-Shirt">
+                            <p aria-hidden="true">Ill Behaviour T-Shirt</p>
+                            <a target="_blank"
+                                href="https://mrshiraz.bandcamp.com/merch/ill-behaviour-shirt-w-free-xx-20-year-retrospective   "
+                                class="btn btn-primary stretched-link"
+                                aria-label="Buy Mr Shiraz Ill BehaviourT-Shirt">Buy T-Shirt</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img class="card-img-top" src="/assets/images/tshirt-2.jpg" alt="<r Shiraz T-Shirt">
-                        <p>Oh Lawd T--Shirt</p>
-                            <a href="https://mrshiraz.bandcamp.com/merch/oh-lawd-shirt-w-free-xx-20-year-retrospective-download" class="btn btn-primary stretched-link">Buy T-Shirt</a>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="card-img-top" src="/assets/images/tshirt-2.jpg" alt="Mr Shiraz Oh Lawd T-Shirt">
+                            <p aria-hidden="true">Oh Lawd T--Shirt</p>
+                            <a target="_blank"
+                                href="https://mrshiraz.bandcamp.com/merch/oh-lawd-shirt-w-free-xx-20-year-retrospective-download"
+                                class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz Oh Lawd T-Shirt">Buy
+                                T-Shirt</a>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img class="card-img-top" src="/assets/images/tshirt-3.jpg" alt="Mr Shiraz T-Shirt">
-                        <p>'They Bite!' T-Shirt</p>
-                        <a href="#" class="btn btn-primary stretched-link">Buy T-Shirt</a>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="card-img-top" src="/assets/images/tshirt-3.jpg"
+                                alt=" Mr Shiraz 'They Bite!' T-Shirt">
+                            <p aria-hidden="true">'They Bite!' T-Shirt</p>
+                            <a target="_blank"
+                                href="https://mrshiraz.bandcamp.com/merch/they-bite-shirt-w-free-xx-20-year-retrospective-download"
+                                class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz They Bite T-Shirt">Buy
+                                T-Shirt</a>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
         <hr>
     </section>
-
-    <!------------------------------------Back to Top Button-->
+    <!--------------------------------------------------Back to Top Button-->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
-
-    <!-------------------------------------Footer-->
-
+    <!--------------------------------------------------------------Footer-->
     <footer class="container-fluid">
-    <ul class="list-inline social-links">
+        <ul class="list-inline social-links">
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.facebook.com">
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -219,51 +247,48 @@
             </li>
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.soundcloud.com">
-                <i class="fa fa-soundcloud" aria-hidden="true"></i>
-                <span class="sr-only">Sound Cloud</span>
+                    <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                    <span class="sr-only">Sound Cloud</span>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.bandcamp.com">
-                <i class="fa fa-bandcamp" aria-hidden="true"></i>
-            <span class="sr-only">Bandcamp</span>    
-            </a>
+                    <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                    <span class="sr-only">Bandcamp</span>
+                </a>
             </li>
         </ul>
         </div>
         </div>
     </footer>
-
-
-    <!--------------------Bootstrap JQuery & Bundle-->
+    <!---------------------------------------Bootstrap JQuery & Bundle-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-    <!-------------------w3Schools.com Back To Top Button JavaScript code-->
+    <!-----------------w3Schools.com Back To Top Button JavaScript code-->
     <script>
+        mybutton = document.getElementById("myBtn");
 
-    mybutton = document.getElementById("myBtn");
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
-    window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
 
-    function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-    } else {
-    mybutton.style.display = "none";
-    }
-    }
-
-    function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-</script>
-
-<!-----------------------------------End of Back to Top Button-->
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 </body>
 
 </html>
