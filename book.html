@@ -38,49 +38,54 @@
     </div>
 </header>
 
-<section>
-    <!---Sign up Modal-->
-    <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
-        Up!</button>
+<body>
+    <section>
+        <!---Sign up Modal-->
+        <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
+            Up!</button>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign Up to Mr Shiraz's Mailing List!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="fname">First Name</label>
-                            <input type="text" class="form-control" id="fname" aria-describedby="Enter first name" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="lname">Last Name</label>
-                            <input type="text" class="form-control" id="lname" aria-describedby="Enter last name" placeholder="Last Name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email-address">Email address</label>
-                            <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter Email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        
-                        <button type="submit" class="btn submit">Submit</button>
-                    </form>
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign Up to Mr Shiraz's Mailing List!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" id="fname" aria-describedby="Enter first name"
+                                    placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" class="form-control" id="lname" aria-describedby="Enter last name"
+                                    placeholder="Last Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email-address">Email address</label>
+                                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
+                                    placeholder="Enter Email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+
+                            <button type="submit" class="btn submit">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="container-fluid">
-        
-            
-         <form class="border">
+    </section>
+    <section class="container-fluid">
+
+
+        <form class="border">
             <legend class="text-center">Booking Enquiry</legend>
             <div class="form-group col-auto">
                 <label for="name">Name</label>
@@ -88,41 +93,42 @@
             </div>
             <div class="form-group col-auto">
                 <label for="email">Email Address</label>
-                <input class="form-control" type="email" name="email" id="email"required>
+                <input class="form-control" type="email" name="email" id="email" required>
             </div>
             <div class="form-group col-auto">
                 <label for="telephone">Telephone number</label>
-                <input class="form-control" type="tel" name="telephone" id="telephone"required>
+                <input class="form-control" type="tel" name="telephone" id="telephone" required>
             </div>
             <div class="text-center">
-            <div class="check-box form-check form-check-inline col-auto">
-                <input class="form-check-input" type="checkbox" name="event" id="event" value="Event" >
-                <label class="form-check-label" for="event">Event</label>
-            </div>
-            <div class="form-check form-check-inline col-auto">
-                <input class="form-check-input" type="checkbox" name="gig" id="gig" value="Gig">
-                <label class="form-check-label" for="gig">Gig</label>
-            </div>
-            <div class="form-check form-check-inline col-auto">
-                <input class="form-check-input" type="checkbox" name="festival" id="festival" value="Festival">
-                <label class="form-check-label" for="festival">Festival</label>
-            </div>
+                <div class="check-box form-check form-check-inline col-auto">
+                    <input class="form-check-input" type="checkbox" name="event" id="event" value="Event">
+                    <label class="form-check-label" for="event">Event</label>
+                </div>
+                <div class="form-check form-check-inline col-auto">
+                    <input class="form-check-input" type="checkbox" name="gig" id="gig" value="Gig">
+                    <label class="form-check-label" for="gig">Gig</label>
+                </div>
+                <div class="form-check form-check-inline col-auto">
+                    <input class="form-check-input" type="checkbox" name="festival" id="festival" value="Festival">
+                    <label class="form-check-label" for="festival">Festival</label>
+                </div>
             </div>
             <div class="form-group col-auto">
                 <label for="details">Enquiry Description</label>
-                <textarea class="form-control" name="details" id="details" rows="8" required></textarea>   
+                <textarea class="form-control" name="details" id="details" rows="8" required></textarea>
             </div>
             <div class="form-group col-auto">
-                <button type="submit" class="btn btn-primary" action="https://formdump.codeinstitute.net" method="post">Submit</button>
+                <button type="submit" class="btn btn-primary" action="https://formdump.codeinstitute.net"
+                    method="post">Submit</button>
             </div>
         </form>
-</section>
-<body>
-
- <!------------------------------------------------------------Footer-->
+    </section>
+    <!--------------------------------------------------Back to Top Button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    <!------------------------------------------------------------Footer-->
 
     <footer class="container-fluid">
- <ul class="list-inline social-links">
+        <ul class="list-inline social-links">
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.facebook.com">
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -149,14 +155,14 @@
             </li>
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.soundcloud.com">
-                <i class="fa fa-soundcloud" aria-hidden="true"></i>
-                <span class="sr-only">Sound Cloud</span>
-            </a>
+                    <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                    <span class="sr-only">Sound Cloud</span>
+                </a>
             </li>
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.bandcamp.com">
-                <i class="fa fa-bandcamp" aria-hidden="true"></i>
-                <span class="sr-only">Bandcamp</span>
+                    <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                    <span class="sr-only">Bandcamp</span>
                 </a>
             </li>
         </ul>
@@ -165,26 +171,34 @@
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
     <!----Bootstrap JQuery & Bundle-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <!----------------------w3schools.com Back to Top Button JavaScript code-->
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
     </script>
 </body>
 
