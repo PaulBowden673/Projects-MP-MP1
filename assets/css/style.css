@@ -60,7 +60,7 @@ p a i {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1rem;
+    
     
     background-color: #950808;
 }
@@ -132,7 +132,6 @@ li a {
 .border {
     border: 1px solid #fff;
     margin: 10% 5% 10% 5%;
-   /* Padding: 2px;*/
     color: #fcfcfc;
     background-color: #950808;
 }   
