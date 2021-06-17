@@ -51,7 +51,7 @@ p a i {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 400px;
+    height: auto;
     width: 100%;
 }
 
@@ -116,6 +116,8 @@ li a {
 .sub-title {
     margin-top: 1rem;
 }
+
+
 
 /*---------------------------------------------------------Music Page*/
 
@@ -205,9 +207,3 @@ footer {
 }
 
 /*--------------------------------Media Queries*/
-
-@media screen and (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;
-    }
-}
