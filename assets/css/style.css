@@ -131,8 +131,8 @@ li a {
 
 .border {
     border: 1px solid #fff;
-    margin: 10% 10% 10% 10%;
-    Padding: 2px;
+    margin: 10% 5% 10% 5%;
+   /* Padding: 2px;*/
     color: #fcfcfc;
     background-color: #950808;
 }   
