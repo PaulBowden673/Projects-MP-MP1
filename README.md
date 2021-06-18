@@ -81,7 +81,7 @@ User stories from the UX section were tested to ensure that they all work as int
 
 • Go to the Home page, 
 
-- Read the about section.
+-Read the about section.
 
 • Click on the video play button to watch their latest video. 
 
@@ -114,7 +114,7 @@ User stories from the UX section were tested to ensure that they all work as int
 - Safari 
 ## Issues/Bugs
 - Issue with 3 images not correctly displaying across the width of the viewport on 2056px monitor - this was resolved by removing the Bootstrap div.row tag around the images
-- Issue with Merchandise cards not displaying across the width of viewport on2056px monitor - this was resolved by removing the Bootstrap div.row tag around the card-group
+- Issue with Merchandise cards not displaying across the width of viewport on 2056px monitor - this was resolved by removing the Bootstrap div.row tag around the card-group
 ### Validation
 All files passed validation testing at 
 - **HTML** - [w3.org validator] (https://validator.w3.org/)
@@ -122,6 +122,18 @@ All files passed validation testing at
 - **User Centric Performance** - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - Reports can be found at the following link 
 ## Deployment 
+How I deployed
+• Signed in on Github.com 
+
+• opened up my repository PaulBowden673/Projects-MP-MP1 
+
+• opened settings and clicked on pages 
+
+• In pages clicked on source and changed from none to main then saved. 
+
+• opened live url to check website. 
+
+• Rechecked live url and proceeded to test website.
 
 ## Credits
 
