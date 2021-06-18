@@ -96,7 +96,7 @@ h5 {
     color: #fcfcfc;
 }
 
-h2 {
+h2, legend {
     font-family: "Anton", sans-serif;
     font-size: xx-large;
     color: #fcfcfc;
@@ -209,6 +209,32 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+@media screen and (min-width: 320px) 
+{
+    #check-box {
+        display: flex;
+    }
+}
 
+@media screen and (min-width: 320px)
+{
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1024px)
+{
+  body {
+    font-size: 18px;
+  }
+}
 
+@media screen and (min-width: 2056px)
+{
+    body {
+      font-size: 28px;
+    }
+    
+    
+}
 
