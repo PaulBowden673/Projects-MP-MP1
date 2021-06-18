@@ -23,6 +23,7 @@
 - Call to action buttons are displayed using different colours to the rest of the website to give clarity to the user.  
   
 **USER STORIES**
+
 • As a new fan of the band, I want to learn about the band . 
 
 •  As a music promoter, I want contact them, to ask if they could perform at my event. 
@@ -73,28 +74,22 @@ These can be found at the following links
 ## Testing
  I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
  
+ #### User Stories
 User stories from the UX section were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. 
 
-• As a new fan of the band, I want to learn about the band : 
-
+**As a new fan of the band, I want to learn about the band and see how they sound:** 
 • Go to the Home page, 
-
+- Read the about section.
 • Click on the video play button to watch their latest video. 
 
-• As a music promoter, I want contact them, to ask if they could perform at my event: 
-
+**As a music promoter, I want contact them, to ask if they could perform at my event:** 
 • Go to the Book Us! page, 
-
 • Fill out all fields of the form; 
-
 • Click 'Send' button. 
-
 • all fields of the form need to be fill out. If not, user will see alert 'Please fill out this field'. 
 
-• As a fan, I want to see and hear and buy their music and/or merchandise: 
-
+**As a fan, I want to see and hear and buy their music and/or merchandise:** 
 • Go to the Music page, 
-
 • Click on a buy Album button or a buy T-shirt button.
 
 #### Devices
