@@ -7,9 +7,9 @@
 
 
 
->I built this website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, It displays the bands albums and merchanise with links to purchase, Photos of the band members. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs, festivals and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.
+**I built this website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, It displays the bands albums and merchanise with links to purchase, Photos of the band members. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs, festivals and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.**
 ## UX
->The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalog and buy related merchandise.
+**The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalog and buy related merchandise.**
 
 **I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
 
@@ -44,7 +44,7 @@ These can be found at the following links
  - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs, festivals or events.
 
 ## All Pages
-- Sign Up button and Modal - this allows users to sign up to a mialing list with their email address and register to receive information on new music releases, gigs, etc.
+- Sign Up button and Modal - this allows users to sign up to a mailing list with their email address and register to receive information on new music releases, gigs, etc.
 - Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify, Spotify, Bandcamp and Youtube for all the latest news
 
 ## Technologies Used
