@@ -182,8 +182,6 @@ footer {
     color: #fff;
     min-height: 120px;
     margin: 0;
-    position: fixed;
-
 }
 
 .social-links {
@@ -209,6 +207,8 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+
+/*----------------------------Media Queries*/
 @media screen and (min-width: 320px) 
 {
     #check-box {
