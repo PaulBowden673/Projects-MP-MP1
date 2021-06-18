@@ -20,7 +20,7 @@
     <div class="container-fluid hero-box">
         <img class="hero-image" src="assets/images/hero-image-2.jpg" alt="Mr Shiraz Logo">
         <div class="hero-nav ">
-            <nav role="navigation">
+            <nav>
                 <ul class="nav nav-pills justify-content-center">
                     <li class="nav-item">
                         <a class=" flex-sm-fill nav-link btn-danger active" href="index.html">Home</a>
@@ -37,6 +37,7 @@
         </div>
     </div>
 </header>
+<body>
 <!---------------------------------------------Boostrap Sign Up Modal-->
 <section>
     <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
@@ -65,22 +66,19 @@
                         </div>
                         <div class="form-group">
                             <label for="email-address">Email address</label>
-                            <input type="email" class="form-control" id="email-address" aria-describedby="email-help" ">
-                            <small id=" email-help" class="form-text text-muted">We'll never share your email with
+                            <input type="email" class="form-control" id="email-address" aria-describedby="email-help">
+                            <small id="email-help" class="form-text text-muted">We'll never share your email with
                             anyone
                             else.</small>
                         </div>
 
-                        <button type="submit" class="btn submit" action="https://formdump.codeinstitute.net/"
-                            method="post">Submit</button>
+                        <button type="submit" class="btn submit">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<body>
     <!--------------------------------About (The Band) Bootstrap Card Deck-->
     <section class="container-fluid about">
 
@@ -129,13 +127,12 @@
                 </div>
             </div>
 
-            <div class="row no-gutters">
-
+           <div class="row no-gutters">
                 <img class="image-fluid  col-sm-4" src="/assets/images/band-image-1.jpg"
                     alt="photo of 2 members of Mr Shiraz ">
                 <img class="image-fluid  col-sm-4" src="/assets/images/band-image-9.jpg"
                     alt="photo of Mikey Shiraz singing through a megaphone">
-                <img class="image-fluid  col-sm-4" src="/assets/images/band-image-2.jpg"
+                <img class="image-fluid   col-sm-4" src="/assets/images/band-image-2.jpg"
                     alt="photo of Tim Shiraz playing a guitar">
             </div>
 
@@ -201,7 +198,6 @@
             <img class="image-fluid col-sm-4" src="/assets/images/band-image-6.jpg"
                 alt="photo of Tim Shiraz playing lead guitar">
         </div>
-        </div>
     </section>
     <!----------------Bootstrap Embedded Youtube Video (Bands Latest Video)-->
     <section>
@@ -248,13 +244,12 @@
             </li>
             <li class="list-inline-item">
                 <a target="_blank" href="https://www.bandcamp.com">
-                    <i class="fa fa-bandcamp" aria--hidden="true"></i>
+                    <i class="fa fa-bandcamp" aria-hidden="true"></i>
                     <span class="sr-only">Bandcamp</span>
                 </a>
             </li>
         </ul>
-        </div>
-        </div>
+
     </footer>
     <!--------------------------------------------Bootstrap JQuery & Bundle-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

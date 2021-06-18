@@ -138,6 +138,7 @@ li a {
     background-color: lightgray;
 }
 
+
 /*---------------------------------------------------------Booking Form*/
 
 .border {
@@ -181,7 +182,7 @@ footer {
     color: #fff;
     min-height: 120px;
     margin: 0;
-    postion: fixed;
+    position: fixed;
 
 }
 
@@ -208,10 +209,6 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background: #E40F0F;
 
-    #footer-details {
-        padding: 20px;
-    }
+
 
