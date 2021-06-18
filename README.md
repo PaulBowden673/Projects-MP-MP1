@@ -22,7 +22,7 @@
 - I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience. 
 - Call to action buttons are displayed using different colours to the rest of the website to give clarity to the user.  
   
-  **USER STORIES**
+**USER STORIES**
 • As a new fan of the band, I want to learn about the band . 
 
 •  As a music promoter, I want contact them, to ask if they could perform at my event. 
