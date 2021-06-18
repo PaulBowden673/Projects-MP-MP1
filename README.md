@@ -22,6 +22,14 @@
 - I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience. 
 - Call to action buttons are displayed using different colours to the rest of the website to give clarity to the user.  
   
+  **USER STORIES**
+• As a new fan of the band, I want to learn about the band . 
+
+•  As a music promoter, I want contact them, to ask if they could perform at my event. 
+
+• As a fan, I want to see and hear and buy their music and/or merchandise. 
+
+• As a fan of their music, I want to read about members of the band, to check their history.
   
 ## Wireframe Mockups 
 These can be found at the following links 
@@ -64,21 +72,43 @@ These can be found at the following links
 
 ## Testing
  I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
+ 
+User stories from the UX section were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. 
+
+• As a new fan of the band, I want to learn about the band : 
+
+• Go to the Home page, 
+
+• Click on the video play button to watch their latest video. 
+
+• As a music promoter, I want contact them, to ask if they could perform at my event: 
+
+• Go to the Book Us! page, 
+
+• Fill out all fields of the form; 
+
+• Click 'Send' button. 
+
+• all fields of the form need to be fill out. If not, user will see alert 'Please fill out this field'. 
+
+• As a fan, I want to see and hear and buy their music and/or merchandise: 
+
+• Go to the Music page, 
+
+• Click on a buy Album button or a buy T-shirt button.
 
 #### Devices
-( list various moblie devices used - Samsung Tab6 lte, Ipad, Iphone, Samsumg S9)
 - Samsung S9
 - Samsung S6 Lte Tablet
 - Ipad
 - Iphone 10
 - Desktop with 4K 2056px Monitor
 #### Browsers
-( List various browsers used - chrome, edge, firefox.safari)
 - Microsoft Edge
 - Chrome
-- 
+- Firefox
+- Safari 
 ## Issues/Bugs
-( list bugs and fixes as well asany unfixed bugs)
 - Issue with 3 images not correctly displaying across the width of the viewport on 2056px monitor - this was resolved by removing the Bootstrap div.row tag around the images
 - Issue with Merchandise cards not displaying across the width of viewport on2056px monitor - this was resolved by removing the Bootstrap div.row tag around the card-group
 ### Validation
