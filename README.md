@@ -46,12 +46,14 @@ These can be found at the following links
 ## All Pages
 - Sign Up button and Modal - this allows users to sign up to a mailing list with their email address and register to receive information on new music releases, gigs, etc.
 - Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify, Spotify, Bandcamp and Youtube for all the latest news
+- Back to Top button to allow users to return to the top of the page. Useful on mobile devices where the page scrolls a long way from the top. 
 
 ## Technologies Used
 
  -  **HTML5**  - This was used for the layout of the website
  -  **CSS**    - This was used to style the website
  -  **Bootstrap** - This was used to get the website up and running quickly
+ -  **JavaScript** - THis was used for the Back to Top button which appears when the screen is scrolled down from the top  
 
 ## Future updates
 
@@ -61,18 +63,30 @@ These can be found at the following links
 - Change band logo/Hero image to one showing the band rather than the stock Logo image that they have
 
 ## Testing
- (I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.)
+ I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
 
 #### Devices
 ( list various moblie devices used - Samsung Tab6 lte, Ipad, Iphone, Samsumg S9)
-
+- Samsung S9
+- Samsung S6 Lte Tablet
+- Ipad
+- Iphone 10
+- Desktop with 4K 2056px Monitor
 #### Browsers
 ( List various browsers used - chrome, edge, firefox.safari)
-
+- Microsoft Edge
+- Chrome
+- 
 ## Issues/Bugs
 ( list bugs and fixes as well asany unfixed bugs)
+- Issue with 3 images not correctly displaying across the width of the viewport on 2056px monitor - this was resolved by removing the Bootstrap div.row tag around the images
+- Issue with Merchandise cards not displaying across the width of viewport on2056px monitor - this was resolved by removing the Bootstrap div.row tag around the card-group
 ### Validation
-All files passed validation testing at
+All files passed validation testing at 
+- **HTML** - [w3.org validator] (https://validator.w3.org/)
+- **CSS**  - [w3.org validator] (https://jigsaw.w3.org/css-validator/)
+- **User Centric Performance** - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- Reports can be found at the following link 
 ## Deployment 
 
 ## Credits
