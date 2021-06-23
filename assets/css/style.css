@@ -12,18 +12,9 @@
 
 .about p,
 h2,
-h4 {
-    color: #fcfcfc;
-}
-
-div q {
-    color: #fcfcfc;
-}
-
-p a i {
-    color: #fcfcfc;
-}
-
+h4,
+div q,
+p a i,
 .music p,
 .merch p {
     color: #fcfcfc;
@@ -36,7 +27,7 @@ p a i {
 /*------------------------------------------Hero Image and Nav*/
 .nav-link {
     color: #E40F0F;
-
+    position: relative;
 }
 
 
@@ -54,7 +45,7 @@ p a i {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: auto;
+    height: 510px;
     width: 100%;
 }
 
@@ -63,20 +54,17 @@ p a i {
     position: absolute;
     top: 0;
     right: 0;
+}
 
-
+#sign-up:hover,
+#sign-up:focus {
     background-color: #950808;
 }
 
-.modal-header {
-    background-color: #950808;
-    color: #fcfcfc;
-
-}
-
+.modal-header,
 .modal-body {
-    background-color: #950808;
     color: #fcfcfc;
+
 }
 
 .modal .submit {
@@ -84,6 +72,9 @@ p a i {
     color: #950808;
 }
 
+.red-bg {
+    background-color: #950808;
+}
 /*--------------------------------------------------------All Pages*/
 
 body {
@@ -104,9 +95,6 @@ h2, legend {
 
 p {
     font-family: "Roboto", sans-serif;
-
-
-
 }
 
 li a {
@@ -116,6 +104,11 @@ li a {
 
 /*--------------------------------------------------------Home Page*/
 
+p .about {
+    max-width: 700px;
+    margin: 10px 25% 10px 25%;
+}
+
 .red-card {
     background-color: #950808;
 }
@@ -123,7 +116,9 @@ li a {
 .sub-title {
     margin-top: 1rem;
 }
-
+.card-img-top {
+    height: 500px;
+}
 /*---------------------------------------------------------Music Page*/
 
 .music p,
@@ -209,6 +204,7 @@ footer {
 
 
 /*----------------------------Media Queries*/
+
 @media screen and (min-width: 320px) 
 {
     #check-box {
