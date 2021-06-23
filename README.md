@@ -24,21 +24,43 @@
   
 **USER STORIES**
 
-• As a new fan of the band, I want to learn about the band and see how they sound. 
+***First Time Visiter***
 
-•  As a music promoter, I want contact them, to ask if they could perform at my event. 
+1.  As a first time visiter, I want to easily understand the purpose of the site and learn about the band. 
+2.  As a first time visiter, I want to easily navigate the site to find content.
+3.  As a first time visiter, I want to locate the bands social links and be able to follow them on social media.
+4. As a first time visiter and Music Promoter, I want contact the band, to ask if they could perform at my event. 
 
-• As a fan, I want to see and hear and buy their music and/or merchandise. 
+***Returning Visitor***
 
-• As a fan of their music, I want to read about members of the band, to check their history.
-  
+1.  As a returning visiter, I want to see/hear and buy their music and/or merchandise. 
+2.  As a returning visiter, I want to read about the band.
+3.  As a returning visiter and Music promoter, I want to contact the band and book them for gigs.
+
+***Frequent Visitor***
+
+1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
+2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
+3. As A frequent visitor, I want to contact the band and book them for gigs.
+
+## Design
+    ### Colour Scheme
+    - The 3 main colours used on the site are Black, #fcfcfc (White) and #950808 (Dark red) which are appropriate.
+    ### Typography
+    - The Roboto font is the main font used throughout the whole site, with sans-serif as fallback in case the font doesn't load correctly. It is frequently used and easy to read. 
+    - The Anton font is used for headings throughout the site, with sans-serif fallback in case the font doesn't load correctly, it is optimised for a bold display on modern web browsers. 
+    ### Imagery
+    - The images are striking and energetic, the Hero image is a logo designed by Mr Shiraz that they use for their band name. 
+
+
 ## Wireframe Mockups 
 These can be found at the following links 
 
 - [Wireframe 3 screen sizes](https://github.com/PaulBowden673/Projects-MP-MP1/blob/c8f3d489385801a94cc68539966801c66136da61/assets/wireframes/Mr%20Shiraz%20responsive%20Website%20(3).pdf)
 
 ## Features
-
+- Responsive on all screen sizes
+- Interactive elements 
 ### [Home Page] (Https://github.com/PaulBowden673/Projects-MP-MP1/index.html)
 - Embedded Youtube video
 - Card deck of Key Band Members
@@ -69,37 +91,19 @@ These can be found at the following links
 - Add more video clips of the Band
 - Add embeded audio clips to give fuller experience
 - Update Band Member profiles to include all band members not just key members
-- Change band logo/Hero image to one showing the band rather than the stock Logo image that they have
 
 ## Testing
  I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should.
  
- #### User Stories
+ ### Testing User Stories from UX section
 User stories from the UX section were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. 
+ #### First Time visitor
+1. As a First time Visitor, I want to easily understand the purpose of the site and learn about the band.
+    1. On entering the site the user is presented with a clean, bold hero image and a clear navigation menu to go to a page of thier choice. Underneath there is a paragraph giving a clear context of the site.  
+2. As a first time visitor, I want to easily navigate the site and find content.
+    1. Under the hero image there is a clear navigation bar, each link describes where the user will navigate to clearly. 
+    2. At the bottom of each page is a back to top button so the user can easliy return to the top of the page.
 
-**As a new fan of the band, I want to learn about the band and see how they sound:** 
-
-• Go to the Home page, 
-
--Read the about section.
-
-• Click on the video play button to watch their latest video. 
-
-**As a music promoter, I want contact them, to ask if they could perform at my event:** 
-
-• Go to the Book Us! page, 
-
-• Fill out all fields of the form; 
-
-• Click 'Send' button. 
-
-• all fields of the form need to be fill out. If not, user will see alert 'Please fill out this field'. 
-
-**As a fan, I want to see and hear and buy their music and/or merchandise:** 
-
-• Go to the Music page, 
-
-• Click on a buy Album button or a buy T-shirt button.
 
 #### Devices
 - Samsung S9
