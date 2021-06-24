@@ -29,35 +29,35 @@
   
 **USER STORIES**
 
-***First Time Visiter***
+***First Time Visitor***
 
-1.  As a first time visiter, I want to easily understand the purpose of the site and learn about the band. 
-2.  As a first time visiter, I want to easily navigate the site to find content.
-3.  As a first time visiter, I want to locate the bands social links and be able to follow them on social media.
-4. As a first time visiter and Music Promoter, I want contact the band, to ask if they could perform at my event. 
+1.  As a first time visitor, I want to easily understand the purpose of the site and learn about the band. 
+2.  As a first time visitor, I want to easily navigate the site to find content.
+3.  As a first time visitor, I want to locate the bands social links and be able to follow them on social media.
+4.  As a first time visitor and Music Promoter, I want to contact the band, to ask if they could perform at my event. 
 
 ***Returning Visitor***
 
-1.  As a returning visiter, I want to see/hear and buy their music and/or merchandise. 
-2.  As a returning visiter, I want to read about the band.
+1.  As a returning visitor, I want to see/hear and buy their music and/or merchandise. 
+2.  As a returning visitor, I want to read about the band.
 
 ***Frequent Visitor***
 
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
-2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
+2. As a frequent visitor, I want to check for new albums/merchandise to purchase.
 
 ## Design
    ### Colour Scheme
    - The 3 main colours used on the site are Black, #fcfcfc (White) and #950808 (Dark red) which are appropriate.
    ### Typography
-   - The Roboto font is the main font used throughout the whole site, with sans-serif as fallback in case the font doesn't load correctly. It is frequently used and easy to read. 
-   - The Anton font is used for headings throughout the site, with sans-serif fallback in case the font doesn't load correctly, it is optimised for a bold display on modern web browsers. 
+   - The Roboto font is the main font used throughout the whole site, with sans-serif as fallback in case the font does not load correctly. It is frequently used and easy to read. 
+   - The Anton font is used for headings throughout the site, with sans-serif fallback in case the font does not load correctly, it is optimised for a bold display on modern web browsers. 
    
    ### Imagery
    - The images are striking and energetic, the Hero image is a logo designed by Mr Shiraz that they use for their band name. 
 
 
-## Wireframe Mockups 
+## Wireframe Mock-ups 
 These can be found at the following links 
 
 - [Wireframe 3 screen sizes](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/wireframes/Mr%20Shiraz%20responsive%20Website%20(3).pdf)
@@ -66,21 +66,21 @@ These can be found at the following links
 - Responsive on all screen sizes
 - Interactive elements 
 ### [Home Page](Https://github.com/PaulBowden673/Projects-MP-MP1/index.html)
-- Embedded Youtube video
+- Embedded YouTube video
 - Card deck of Key Band Members
 - Information about the Band 
 
 ### [Music Page](Https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
- - Music - this feature displays Mr Shiraz's current back catalog album covers. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
+ - Music - this feature displays Mr Shiraz's current back catalogue album covers. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
  - Merchandise - this feature displays the bands current selection of merchandise and allows the user to click on image to purchase the item on Bandcamp
  - Bootstrap Card-deck to display the Music and Merchandise links
 
 ### [Booking Page](Https://github.com/PaulBowden673/Projects-Mp-MP1/book.html)
- - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs, festivals or events.
+ - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs, festivals, or events.
 
 ## All Pages
 - Sign Up button and Modal - this allows users to sign up to a mailing list with their email address and register to receive information on new music releases, gigs, etc.
-- Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify, Spotify, Bandcamp and Youtube for all the latest news
+- Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify, Spotify, Bandcamp and YouTube for all the latest news
 - Back to Top button to allow users to return to the top of the page. Useful on mobile devices where the page scrolls a long way from the top. 
 
 ## Technologies Used
@@ -93,7 +93,7 @@ These can be found at the following links
 ## Future updates
 
 - Add more video clips of the Band
-- Add embeded audio clips to give fuller experience
+- Add embedded audio clips to give fuller experience
 - Update Band Member profiles to include all band members not just key members
 
 ## Testing
@@ -103,25 +103,25 @@ These can be found at the following links
 User stories from the UX section were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. 
 
  #### First Time visitor
-1. As a First time Visitor, I want to easily understand the purpose of the site and learn about the band.
-    1. On entering the site the user is presented with a clean, bold hero image and a clear navigation menu to go to a page of thier choice. Underneath there is a paragraph giving a clear context of the site.  
+1. As a first time Visitor, I want to easily understand the purpose of the site and learn about the band.
+    1. On entering the site, the user is presented with a clean, bold hero image and a clear navigation menu to go to a page of their choice. Underneath there is a paragraph giving a clear context of the site.  
 2. As a first time visitor, I want to easily navigate the site and find content.
     1. Under the hero image there is a clear navigation bar, each link describes where the user will navigate to clearly. 
-    2. At the bottom of each page is a back to top button so the user can easliy return to the top of the page.
-3.  As a first time visiter, I want to locate the bands social links and be able to follow them on social media.
-    1. At the bottom of each page there are links to te bands social media pages, located in the footer. 
-4. As a first time visiter and Music Promoter, I want contact the band, to ask if they could perform at my event.
-    1. After entering the site and clicking on the Book Us! link in the navigation bar, the user is taken to a booking form which allows the user to enter details and submit a booking enquiry form, the user is given prompts to ensure all the fields are completed before submiting the form. 
+    2. At the bottom of each page is a back to top button so the user can easily return to the top of the page.
+3.  As a First time visitor, I want to locate the bands social links and be able to follow them on social media.
+    1. At the bottom of each page there are links to the bands social media pages, located in the footer. 
+4. As a first time visitor and Music Promoter, I want to contact the band, to ask if they could perform at my event.
+    1. After entering the site and clicking on the Book Us! link in the navigation bar, the user is taken to a booking form which allows the user to enter details and submit a booking enquiry form, the user is given prompts to ensure all the fields are completed before submitting the form. 
  
  #### Returning Visitor
- 1.  As a returning visiter, I want to see/hear and buy their music and/or merchandise. 
-    1. After entering the site and clicking on the Music link in the navigation bar, the user is taken to a page where they can view the album covers and merchandise images, that can be clicked on, the links then take them to an external site ( BandCamp.com) where they can listen to clips form the albums, buy the albums and buy the merchandise. 
-2.  As a returning visiter, I want to read about the band.
+ 1.  As a returning visitor, I want to see/hear and buy their music and/or merchandise. 
+    1. After entering the site and clicking on the Music link in the navigation bar, the user is taken to a page where they can view the album covers and merchandise images, that can be clicked on, the links then take them to an external site (BandCamp.com) where they can listen to clips form the albums, buy the albums and buy the merchandise. 
+2.  As a returning visitor, I want to read about the band.
     1. After entering the site, the user can scroll down the Home page to read about the key members of the band, information about who and where the band has performed and what awards they have won. 
 
 #### Frequent Visitor
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
-    1. After entering the site, the user can click on the Sign UP! utton at the top of any page to complete a form allowing them to sign up to recieve the bands newsletter by email.
+    1. After entering the site, the user can click on the Sign UP! button at the top of any page to complete a form allowing them to sign up to receive the bands newsletter by email.
   2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
     1. After entering the site, the user can click on the Music link, in the navigation bar to take them to the bands albums and merchandise where they can check if there are any new items to purchase.    
 
@@ -159,14 +159,14 @@ The project was deployed at GitHub Pages using the following steps
 4. At the top of the repository, locate and click the 'Settings' button on the menu.
 5. Scroll down the Settings page until you locate 'GitHub Pages' section.
 6. Under 'Source', click on the dropdown menu and select 'Master Branch'.
-7. THe page will refresh, scroll bak down the page and locate the published site in the 'GitHub Pages' section.
+7. The page will refresh, scroll back down the page and locate the published site in the 'GitHub Pages' section.
 
 ### Forking the GitHub Repository
 
 Forking the repository will make a copy of the original repository, to view or make changes without affecting the original repository using the following steps
 1. Log in to GitHub and locate the repository named PaulBowden673/Projects-Mp-MP1
 2. At the top of the Repository, above the 'Settings' button on the menu, locate the 'Fork' button.
-3. You should now have a copy of the original repository i nyour GitHub account.
+3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
@@ -175,7 +175,7 @@ Forking the repository will make a copy of the original repository, to view or m
 3. To clone the repository using HTTPS, under 'Clone with HTTPS', copy the link.
 4. Open Git Bash
 5. Change the current working directory to where you want the cloned directory to be made.
-6. Type 'git clone', and paste the URL you copied.
+6. Type 'git clone' and paste the URL you copied.
 7. Press Enter. Your local clone will be created.
 
 ## Credits
@@ -190,5 +190,5 @@ Forking the repository will make a copy of the original repository, to view or m
 - Newcastle College
 - Mikey (Shiraz) Baird for allowing me to use information about the band, photos and videos 
 - Bootstrap - framework, Modal, Card-decks
-- Youtube  - embedded video
+- YouTube  - embedded video
 
