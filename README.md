@@ -7,7 +7,7 @@
 
 <a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
 
-**I built My website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, it displays the bands albums and merchandise with links to purchase, Photos of the band members. It also has a sign-up page for updates on the band, a bookings page for users to book the band for gigs, festivals, and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a userfriendly design giving users a great experience when using the website.**
+**I built My website to showcase the talent of Huddersfield (Northern Groove Punk) band Mr Shiraz, it displays the bands albums and merchandise with links to purchase, Photos of the band members. It also has a sign-up page for updates on the band, a bookings page for users to book the band for gigs, festivals, and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a userfriendly design giving users a great experience when using the website.**
 ## UX
 **The purpose of this project is to create a static (front-end only) website for a well-known Huddersfield based band who have around 20 years' experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalogue and buy related merchandise.**
 
