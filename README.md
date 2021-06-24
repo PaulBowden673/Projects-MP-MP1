@@ -6,6 +6,7 @@
 ![Mr Shiraz Mockup](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/images/AmIresponsive.png)
 
 
+<a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
 
 **I built this website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, It displays the bands albums and merchanise with links to purchase, Photos of the band members. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs, festivals and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.**
 ## UX
@@ -13,7 +14,6 @@
 
 
 
-<a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
 
 
 **I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
