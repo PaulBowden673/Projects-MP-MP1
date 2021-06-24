@@ -87,7 +87,7 @@ These can be found at the following links
  -  **HTML5**  - This was used for the layout of the website
  -  **CSS**    - This was used to style the website
  -  **Bootstrap** - This was used to get the website up and running quickly
- -  **JavaScript** - THis was used for the Back to Top button which appears when the screen is scrolled down from the top  
+ -  **JavaScript** - This was used for the Back to Top button which appears when the screen is scrolled down from the top  
 
 ## Future updates
 
