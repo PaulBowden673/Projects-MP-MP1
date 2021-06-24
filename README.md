@@ -116,7 +116,7 @@ User stories from the UX section were tested to ensure that they all work as int
     1. After entering the site and clicking on the Book Us! link in the navigation bar, the user is taken to a booking form which allows the user to enter details and submit a booking enquiry form, the user is given prompts to ensure all the fields are completed before submitting the form. 
  
  #### Returning Visitor
- 1.  As a returning visitor, I want to see/hear and buy their music and/or merchandise. 
+1.  As a returning visitor, I want to see/hear and buy their music and/or merchandise. 
     1. After entering the site and clicking on the Music link in the navigation bar, the user is taken to a page where they can view the album covers and merchandise images, that can be clicked on, the links then take them to an external site (BandCamp.com) where they can listen to clips form the albums, buy the albums and buy the merchandise. 
 2.  As a returning visitor, I want to read about the band.
     1. After entering the site, the user can scroll down the Home page to read about the key members of the band, Information about where the band has performed, who they have played with and what awards they have won. 
@@ -124,7 +124,7 @@ User stories from the UX section were tested to ensure that they all work as int
 #### Frequent Visitor
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
     1. After entering the site, the user can click on the Sign UP! button at the top of any page to complete a form allowing them to sign up to receive the bands newsletter by email.
-  2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
+2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
     1. After entering the site, the user can click on the Music link, in the navigation bar to take them to the bands albums and merchandise where they can check if there are any new items to purchase.    
 
 #### Devices
