@@ -123,7 +123,7 @@ User stories from the UX section were tested to ensure that they all work as int
 
 #### Frequent Visitor
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
-    1. After entering the site, the user can click on the Sign UP! button at the top of any page to complete a form allowing them to sign up to receive the bands newsletter by email.
+    1. After entering the site, the user can click on the Sign Up! button at the top of any page to complete a form allowing them to sign up to receive the bands newsletter by email.
 2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
     1. After entering the site, the user can click on the Music link, in the navigation bar to take them to the bands albums and merchandise where they can check if there are any new items to purchase.    
 
