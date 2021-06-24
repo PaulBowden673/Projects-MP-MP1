@@ -38,19 +38,19 @@
 <body>
 <!---------------------------------------------Boostrap Sign Up Modal-->
 <section>
-    <button type="button" id="sign-up" class="btn btn-primary red-bg" data-toggle="modal" data-target="#signUpModal">Sign
+    <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
         Up!</button>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header red-bg">
+                <div class="modal-header">
                     <h5 class="modal-title">Sign Up to Mr Shiraz's Mailing List!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body red-bg">
+                <div class="modal-body">
                     <form action="https://formdump.codeinstitute.net/" method="post">
                         <div class="form-group">
                             <label for="fname">First Name</label>
@@ -65,7 +65,7 @@
                         <div class="form-group">
                             <label for="email-address">Email address</label>
                             <input type="email" class="form-control" id="email-address" aria-describedby="email-help">
-                            <small id="email-help" class="form-text text-muted">We'll never share your email with
+                            <small id="email-help" class="form-text">We'll never share your email with
                             anyone
                             else.</small>
                         </div>
@@ -77,20 +77,18 @@
     </div>
 </section>
     <!--------------------------------About (The Band) Bootstrap Card Deck-->
-    <section class="container-fluid about">
-        <p class="about text-center">Who is <strong>MR SHIRAZ?</strong> I don't think that mystery will ever actually be
-            solved and it's a
-            question that
-            will
+    <section class="container-fluid">
+        <p id="about" class="text-center">Who is <strong>MR SHIRAZ?</strong> I don't think that mystery will ever actually be
+            solved and it's a question that will
             probably generate multiple, misleading answers every time it's asked. Why's that, you ask? Well,
             when asked
             for some facts about the band, this is what they gave us...</p>
 
         <h2 class="text-center"> (DISCLAIMER - ALL OF THE FOLLOWING IS TRUE)</h2>
         <div class="row no gutters">
-            <div class="card-group pr-1">
+            <div  class="card-group pr-1">
                 <div class="card">
-                    <img class="card-img-top" src="./assets/images/tori.jpg" alt="Tori the Bassist">
+                    <img class="card-img-top h-75" src="./assets/images/tori.jpg" alt="Tori the Bassist">
                     <div class="card-body red-card">
                         <h5 class="card-title">Tori Shiraz</h5>
                         <p class="card-text">The Bassist Tori is a Philosophy genius and possibly the most intelligent
@@ -99,7 +97,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="assets/images/mikey.jpg" alt="Mikey the lead singer">
+                    <img class="card-img-top h-75" src="assets/images/mikey.jpg" alt="Mikey the lead singer">
                     <div class="card-body red-card">
                         <h5 class="card-title">Mikey Shiraz</h5>
                         <p class="card-text">Frontman Mikey once released a book of confessions of all the terrible
@@ -107,8 +105,8 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="assets/images/tim.jpg" alt="Tim the lead guitarist">
-                    <div class="card-body red-card">
+                    <img class="card-img-top h-75" src="assets/images/tim.jpg" alt="Tim the lead guitarist">
+                       <div class="card-body red-card">
                         <h5 class="card-title">Tim Shiraz</h5>
                         <p class="card-text">Lead guitarist Tim looks like everyone in the world, apparantly. Examples
                             are Edward Norton, the dead body from stand by me,
@@ -125,7 +123,7 @@
                     alt="photo of Tim Shiraz playing a guitar">
             <hr>
             <div class="col-12 text-center ">
-                <p> And of course, there's a Facebook page <a target="_blank" href="#"><i class="fa fa-facebook-square"
+                <p id="about-2"> And of course, there's a Facebook page <a target="_blank" href="#"><i class="fa fa-facebook-square"
                             aria-hidden="true"></i><span class="sr-only">Facebook</span></a></p>
 
                 <p>Despite being absolutely ridiculous, they should also be taken rather seriously.
@@ -150,7 +148,7 @@
             alt="photo of Mr Shiraz on stage playing">
 
         <div class="col-12 text-center">
-            <p><strong>Well of course, it is!</strong></p>
+            <p id="about-3"><strong>Well of course, it is!</strong></p>
             <p>With a few line up changes and a more honed sound that matches their live performances, <br>Mr Shiraz are
                 now
                 groove punks and invite you all
