@@ -52,7 +52,8 @@
    ### Typography
    - The Roboto font is the main font used throughout the whole site, with sans-serif as fallback in case the font doesn't load correctly. It is frequently used and easy to read. 
    - The Anton font is used for headings throughout the site, with sans-serif fallback in case the font doesn't load correctly, it is optimised for a bold display on modern web browsers. 
-    ### Imagery
+   
+   ### Imagery
    - The images are striking and energetic, the Hero image is a logo designed by Mr Shiraz that they use for their band name. 
 
 
@@ -64,17 +65,17 @@ These can be found at the following links
 ## Features
 - Responsive on all screen sizes
 - Interactive elements 
-### [Home Page] (Https://github.com/PaulBowden673/Projects-MP-MP1/index.html)
+### [Home Page](Https://github.com/PaulBowden673/Projects-MP-MP1/index.html)
 - Embedded Youtube video
 - Card deck of Key Band Members
 - Information about the Band 
 
-### [Music Page] (https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
+### [Music Page](Https://github.com/PaulBowden673/Projects-MP-MP1/music.html)
  - Music - this feature displays Mr Shiraz's current back catalog album covers. It also allows the users to click on the album if they would like to purchase the album on Bandcamp.
  - Merchandise - this feature displays the bands current selection of merchandise and allows the user to click on image to purchase the item on Bandcamp
  - Bootstrap Card-deck to display the Music and Merchandise links
 
-### [Booking Page] (Https://github.com/PaulBowden673/Projects-Mp-MP1/book.html)
+### [Booking Page](Https://github.com/PaulBowden673/Projects-Mp-MP1/book.html)
  - Booking Enquiry - this feature provides a form to the user in which they can contact the band to get more information on booking Mr Shiraz for gigs, festivals or events.
 
 ## All Pages
@@ -140,8 +141,8 @@ User stories from the UX section were tested to ensure that they all work as int
 - Issue with Merchandise cards not displaying across the width of viewport on 2056px monitor - this was resolved by removing the Bootstrap div.row tag around the card-group
 ### Validation
 All files passed validation testing at 
-- **HTML** - [w3.org validator] (https://validator.w3.org/)
-- **CSS**  - [w3.org validator] (https://jigsaw.w3.org/css-validator/)
+- **HTML** - [w3.org validator](https://validator.w3.org/)
+- **CSS**  - [w3.org validator](https://jigsaw.w3.org/css-validator/)
 - **User Centric Performance** - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 Reports can be found at the following link
