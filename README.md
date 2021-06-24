@@ -35,22 +35,20 @@
 
 1.  As a returning visiter, I want to see/hear and buy their music and/or merchandise. 
 2.  As a returning visiter, I want to read about the band.
-3.  As a returning visiter and Music promoter, I want to contact the band and book them for gigs.
 
 ***Frequent Visitor***
 
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
 2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
-3. As A frequent visitor, I want to contact the band and book them for gigs.
 
 ## Design
-    ### Colour Scheme
-    - The 3 main colours used on the site are Black, #fcfcfc (White) and #950808 (Dark red) which are appropriate.
-    ### Typography
-    - The Roboto font is the main font used throughout the whole site, with sans-serif as fallback in case the font doesn't load correctly. It is frequently used and easy to read. 
-    - The Anton font is used for headings throughout the site, with sans-serif fallback in case the font doesn't load correctly, it is optimised for a bold display on modern web browsers. 
+   ### Colour Scheme
+   - The 3 main colours used on the site are Black, #fcfcfc (White) and #950808 (Dark red) which are appropriate.
+   ### Typography
+   - The Roboto font is the main font used throughout the whole site, with sans-serif as fallback in case the font doesn't load correctly. It is frequently used and easy to read. 
+   - The Anton font is used for headings throughout the site, with sans-serif fallback in case the font doesn't load correctly, it is optimised for a bold display on modern web browsers. 
     ### Imagery
-    - The images are striking and energetic, the Hero image is a logo designed by Mr Shiraz that they use for their band name. 
+   - The images are striking and energetic, the Hero image is a logo designed by Mr Shiraz that they use for their band name. 
 
 
 ## Wireframe Mockups 
@@ -97,19 +95,35 @@ These can be found at the following links
  
  ### Testing User Stories from UX section
 User stories from the UX section were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. 
+
  #### First Time visitor
 1. As a First time Visitor, I want to easily understand the purpose of the site and learn about the band.
     1. On entering the site the user is presented with a clean, bold hero image and a clear navigation menu to go to a page of thier choice. Underneath there is a paragraph giving a clear context of the site.  
 2. As a first time visitor, I want to easily navigate the site and find content.
     1. Under the hero image there is a clear navigation bar, each link describes where the user will navigate to clearly. 
     2. At the bottom of each page is a back to top button so the user can easliy return to the top of the page.
+3.  As a first time visiter, I want to locate the bands social links and be able to follow them on social media.
+    1. At the bottom of each page there are links to te bands social media pages, located in the footer. 
+4. As a first time visiter and Music Promoter, I want contact the band, to ask if they could perform at my event.
+    1. After entering the site and clicking on the Book Us! link in the navigation bar, the user is taken to a booking form which allows the user to enter details and submit a booking enquiry form, the user is given prompts to ensure all the fields are completed before submiting the form. 
+ 
+ ### Returning Visitor
+ 1.  As a returning visiter, I want to see/hear and buy their music and/or merchandise. 
+    1. After entering the site and clicking on the Music link in the navigation bar, the user is taken to a page where they can view the album covers and merchandise images, that can be clicked on, the links then take them to an external site ( BandCamp.com) where they can listen to clips form the albums, buy the albums and buy the merchandise. 
+2.  As a returning visiter, I want to read about the band.
+    1. After entering the site, the user can scroll down the Home page to read about the key members of the band, information about who and where the band has performed and what awards they have won. 
 
+### Frequent Visitor
+1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
+    1. After entering the site, the user can click on the Sign UP! utton at the top of any page to complete a form allowing them to sign up to recieve the bands newsletter by email.
+  2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
+    1. After entering the site, the user can click on the Music link, in the navigation bar to take them to the bands albums and merchandise where they can check if there are any new items to purchase.    
 
 #### Devices
 - Samsung S9
 - Samsung S6 Lte Tablet
-- Ipad
-- Iphone 10
+- Ipad 
+- Iphone 6/7/8
 - Desktop with 4K 2056px Monitor
 #### Browsers
 - Microsoft Edge
@@ -124,7 +138,9 @@ All files passed validation testing at
 - **HTML** - [w3.org validator] (https://validator.w3.org/)
 - **CSS**  - [w3.org validator] (https://jigsaw.w3.org/css-validator/)
 - **User Centric Performance** - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-- Reports can be found at the following link 
+
+Reports can be found at the following link 
+
 ## Deployment 
 How I deployed
 • Signed in on Github.com 
