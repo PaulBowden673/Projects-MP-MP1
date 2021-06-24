@@ -7,24 +7,24 @@
 
 <a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
 
-**I built this website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, It displays the bands albums and merchanise with links to purchase, Photos of the band members. It also has a sign up page for updates on the band, a bookings page for users to book the band for gigs, festivals and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a user friendly design giving users a great experience when using the website.**
+**I built My website to showcase the talents of Huddersfield (Northern Groove Punk) band Mr Shiraz, it displays the bands albums and merchandise with links to purchase, Photos of the band members. It also has a sign-up page for updates on the band, a bookings page for users to book the band for gigs, festivals, and events. I have included a video file so that users can listen to/watch the band perform. I have focused on a userfriendly design giving users a great experience when using the website.**
 ## UX
-**The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalog and buy related merchandise.**
+**The purpose of this project is to create a static (front-end only) website for a well-known Huddersfield based band who have around 20 years' experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalogue and buy related merchandise.**
 
 
 
 
 
 
-**I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
+**I incorporated the following things in order for the target audience to have a great experience when visiting my website,**
 
 - A Music page with links to buy the Band's Albums and Merchandise through BandCamp.com
-- An embeded YouTube video file so the visitors can view the band performing their latest video
-- A sign up page for the user to register to receive information on Mr Shiraz's mailing ist.
+- An embedded YouTube video file so the visitors can view the band performing their latest video
+- A sign-up page for the user to register to receive information on Mr Shiraz's mailing list.
 - Information about the Band, the key band members and photos of the band performing 
 - A bookings page so users can book the band for events
 - Social media links for users to follow to stay up to date with any news the band may have
-- I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours accociated with thier album artwork and style, to give a good overall user experience. 
+- I have matched the design of the webpage to suit the style of the band (which is Northern Groove Punk) using colours associated with their album artwork and style, to give a good overall user experience. 
 - Call to action buttons are displayed using different colours to the rest of the website to give clarity to the user.  
   
 **USER STORIES**
