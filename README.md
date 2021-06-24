@@ -11,6 +11,10 @@
 ## UX
 **The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalog and buy related merchandise.**
 
+![Mr Shiraz mockup](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/images/Responsive%20Image.jpg)
+<a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
+
+
 **I incorperated the following things in order for the target audience to have a great experience when visiting my website,**
 
 - A Music page with links to buy the Band's Albums and Merchandise through BandCamp.com
@@ -54,7 +58,7 @@
 ## Wireframe Mockups 
 These can be found at the following links 
 
-- [Wireframe 3 screen sizes](https://github.com/PaulBowden673/Projects-MP-MP1/blob/c8f3d489385801a94cc68539966801c66136da61/assets/wireframes/Mr%20Shiraz%20responsive%20Website%20(3).pdf)
+- [Wireframe 3 screen sizes](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/wireframes/Mr%20Shiraz%20responsive%20Website%20(3).pdf)
 
 ## Features
 - Responsive on all screen sizes
@@ -107,13 +111,13 @@ User stories from the UX section were tested to ensure that they all work as int
 4. As a first time visiter and Music Promoter, I want contact the band, to ask if they could perform at my event.
     1. After entering the site and clicking on the Book Us! link in the navigation bar, the user is taken to a booking form which allows the user to enter details and submit a booking enquiry form, the user is given prompts to ensure all the fields are completed before submiting the form. 
  
- ### Returning Visitor
+ #### Returning Visitor
  1.  As a returning visiter, I want to see/hear and buy their music and/or merchandise. 
     1. After entering the site and clicking on the Music link in the navigation bar, the user is taken to a page where they can view the album covers and merchandise images, that can be clicked on, the links then take them to an external site ( BandCamp.com) where they can listen to clips form the albums, buy the albums and buy the merchandise. 
 2.  As a returning visiter, I want to read about the band.
     1. After entering the site, the user can scroll down the Home page to read about the key members of the band, information about who and where the band has performed and what awards they have won. 
 
-### Frequent Visitor
+#### Frequent Visitor
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
     1. After entering the site, the user can click on the Sign UP! utton at the top of any page to complete a form allowing them to sign up to recieve the bands newsletter by email.
   2. As a frequent visitor, I want to check for new albums/merchandise to purchse.
@@ -139,21 +143,38 @@ All files passed validation testing at
 - **CSS**  - [w3.org validator] (https://jigsaw.w3.org/css-validator/)
 - **User Centric Performance** - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-Reports can be found at the following link 
+Reports can be found at the following link
+[Testing documents](https://github.com/PaulBowden673/Projects-MP-MP1/tree/master/testing%20documents)
 
 ## Deployment 
-How I deployed
-• Signed in on Github.com 
+### GitHub Pages
 
-• opened up my repository PaulBowden673/Projects-MP-MP1 
+The project was deployed at GitHub Pages using the following steps
 
-• opened settings and clicked on pages 
+1. Log in to GitHub
+2. Go to the repositories tab at the top of the screen. 
+3. Click on the repository named PaulBowden673/Projects-MP-MP1
+4. At the top of the repository, locate and click the 'Settings' button on the menu.
+5. Scroll down the Settings page until you locate 'GitHub Pages' section.
+6. Under 'Source', click on the dropdown menu and select 'Master Branch'.
+7. THe page will refresh, scroll bak down the page and locate the published site in the 'GitHub Pages' section.
 
-• In pages clicked on source and changed from none to main then saved. 
+### Forking the GitHub Repository
 
-• opened live url to check website. 
+Forking the repository will make a copy of the original repository, to view or make changes without affecting the original repository using the following steps
+1. Log in to GitHub and locate the repository named PaulBowden673/Projects-Mp-MP1
+2. At the top of the Repository, above the 'Settings' button on the menu, locate the 'Fork' button.
+3. You should now have a copy of the original repository i nyour GitHub account.
 
-• Rechecked live url and proceeded to test website.
+### Making a Local Clone
+
+1. Log in to GitHub and locate the repository named PaulBowden673/Projects-MP-MP1
+2. Under the repository name, click 'Clone or Download'.
+3. To clone the repository using HTTPS, under 'Clone with HTTPS', copy the link.
+4. Open Git Bash
+5. Change the current working directory to where you want the cloned directory to be made.
+6. Type 'git clone', and paste the URL you copied.
+7. Press Enter. Your local clone will be created.
 
 ## Credits
 
