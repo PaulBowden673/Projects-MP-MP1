@@ -119,7 +119,7 @@ User stories from the UX section were tested to ensure that they all work as int
  1.  As a returning visitor, I want to see/hear and buy their music and/or merchandise. 
     1. After entering the site and clicking on the Music link in the navigation bar, the user is taken to a page where they can view the album covers and merchandise images, that can be clicked on, the links then take them to an external site (BandCamp.com) where they can listen to clips form the albums, buy the albums and buy the merchandise. 
 2.  As a returning visitor, I want to read about the band.
-    1. After entering the site, the user can scroll down the Home page to read about the key members of the band, information about who and where the band has performed and what awards they have won. 
+    1. After entering the site, the user can scroll down the Home page to read about the key members of the band, Information about where the band has performed, who they have played with and what awards they have won. 
 
 #### Frequent Visitor
 1. As a frequent visitor, I want to sign up to the newsletter so that I am emailed about performances or band updates.
