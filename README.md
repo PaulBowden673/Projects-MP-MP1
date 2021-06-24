@@ -47,6 +47,7 @@
 2. As a frequent visitor, I want to check for new albums/merchandise to purchase.
 
 ## Design
+    
    ### Colour Scheme
    - The 3 main colours used on the site are Black, #fcfcfc (White) and #950808 (Dark red) which are appropriate.
    ### Typography
@@ -82,6 +83,7 @@ These can be found at the following links
 - Sign Up button and Modal - this allows users to sign up to a mailing list with their email address and register to receive information on new music releases, gigs, etc.
 - Social Media links - this feature allows users to follow the band on Facebook, Twitter, Spotify, Spotify, Bandcamp and YouTube for all the latest news
 - Back to Top button to allow users to return to the top of the page. Useful on mobile devices where the page scrolls a long way from the top. 
+- Navigation links - this feature allows the users to move through the pages easily. I chose to place the navigation below the Hero image to give a bold effect and break from convention to match the stlye of the band.
 
 ## Technologies Used
 
