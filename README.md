@@ -11,7 +11,7 @@
 ## UX
 **The purpose of this project is to create a static (front-end only) website for a well known Huddersfield based band who have around 20 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Mr Shiraz and potential fans who would like to use the site to buy albums from their back catalog and buy related merchandise.**
 
-                   ![Mr Shiraz mockup](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/images/Responsive%20Image.jpg)
+ ![Mr Shiraz mockup]                  (https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/images/Responsive%20Image.jpg)
 
 
 <a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
