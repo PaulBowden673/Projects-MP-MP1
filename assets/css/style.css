@@ -14,6 +14,7 @@ p,
 h2,
 h4,
 h5,
+legend,
 div q,
 p a i,
 .music p,
@@ -84,7 +85,7 @@ h5 {
 h2, legend {
     font-family: "Anton", sans-serif;
     font-size: xx-large;
-    color: #fcfcfc;
+    
 }
 
 p {
