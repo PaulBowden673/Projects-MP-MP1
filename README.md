@@ -3,7 +3,7 @@
 
 
 
-![Mr Shiraz Mockup](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/images/AmIresponsive.png)
+![Mr Shiraz Mockup](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/images/am-i-responsive.png)
 
 <a href="https://paulbowden673.github.io/Projects-MP-MP1/" target="_blank">Click  here</a> to access the site.
 
