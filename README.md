@@ -154,10 +154,14 @@ User stories from the UX section were tested to ensure that they all work as int
 ### Validation
 All files passed validation testing at 
 - [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulbowden673.github.io%2FProjects-MP-MP1%2F)
-
+![HTML Validation](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/html-validation-report.png)
 
 - [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulbowden673.github.io%2FProjects-MP-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
- [Lighthouse Report Result](https://developers.google.com/web/tools/lighthouse)
+![CSS Validation](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/css-validation-report.png)
+
+- [Lighthouse Report Result](https://developers.google.com/web/tools/lighthouse)
+![Lighthouse Validation Desktop](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/lighthouse-desktop-validation-report.png)
+![Lighthouse Validation Mobile](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/lighthouse-mobile-validation.png)
 
 ## Deployment 
 ### GitHub Pages
