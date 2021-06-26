@@ -96,7 +96,7 @@ These can be found at the following links
 ### Tools
  - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - This was used for the Social Media Icons and Icons on the Music page.  
  - [Google Fonts](https://fonts.google.com/) - This was used for selecting the fonts for the website. 
- - [amirespnsive](http://ami.responsivedesign.is/) - This was used to check how responsive the site is on different devices.
+ - [amiresponsive](http://ami.responsivedesign.is/) - This was used to check how responsive the site is on different devices.
  - [Gitpod](https://www.gitpod.io/) - Online IDE linked to GitHub repository, this was used to write my code.
  - [GitHub](https://github.com/) - This was used to store, host and deploy the project files, after being pushed from Gitpod.
  - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - This was used to audit My site for quality and to check responsiveness. 
