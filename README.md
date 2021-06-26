@@ -157,7 +157,7 @@ All files passed validation testing at
 ![HTML Validation](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/html-validation-report.png)
 - [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulbowden673.github.io%2FProjects-MP-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-#####CSS Validation Issue with  https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css when checking with deployed website. Passed all validation when using direct input option
+CSS Validation Issue with  https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css when checking with deployed website. Passed all validation when using direct input option
 ![CSS Validation](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/css-validation-report.png)
 
 - [Lighthouse Report Result](https://developers.google.com/web/tools/lighthouse)
