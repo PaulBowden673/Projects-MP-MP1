@@ -87,10 +87,20 @@ These can be found at the following links
 
 ## Technologies Used
 
- -  **HTML5**  - This was used for the layout of the website
- -  **CSS**    - This was used to style the website
- -  **Bootstrap** - This was used to get the website up and running quickly
- -  **JavaScript** - This was used for the Back to Top button which appears when the screen is scrolled down from the top  
+### Languages 
+ -  [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)  - This was used for the layout of the website.
+ -  [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)    - This was used to style the website.
+ -  
+### Libraries 
+ - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) -  This was used to design a mobile-first responsive website layout quickly, also using components ( navigation bar, modal, form, footer)
+ - [w3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) - This was used for the JavaScript Back to Top button which appears when the screen is scrolled down from the top.
+### Tools
+ - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - This was used for the Social Media Icons and Icons on the Music page.  
+ - [Google Fonts](https://fonts.google.com/) - This was used for selecting the fonts for the website. 
+ - [amirespnsive](http://ami.responsivedesign.is/) - This was used to check how responsive the site is on different devices.
+ - [Gitpod](https://www.gitpod.io/) - Online IDE linked to GitHub repository, this was used to write my code.
+ - [GitHub](https://github.com/) - This was used to store, host and deploy the project files, after being pushed from Gitpod.
+ - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - This was used to audit My site for quality and to check responsiveness. 
 
 ## Future updates
 
