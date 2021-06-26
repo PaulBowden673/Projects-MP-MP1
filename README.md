@@ -153,12 +153,11 @@ User stories from the UX section were tested to ensure that they all work as int
 - Issue with Merchandise cards not displaying across the width of viewport on 2056px monitor - this was resolved by removing the Bootstrap div.row tag around the card-group
 ### Validation
 All files passed validation testing at 
-- **HTML** - [w3.org validator](https://validator.w3.org/)
-- **CSS**  - [w3.org validator](https://jigsaw.w3.org/css-validator/)
-- **User Centric Performance** - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulbowden673.github.io%2FProjects-MP-MP1%2F)
 
-Reports can be found at the following link
-[Testing documents](https://github.com/PaulBowden673/Projects-MP-MP1/tree/master/testing%20documents)
+
+- [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulbowden673.github.io%2FProjects-MP-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+ [Lighthouse Report Result](https://developers.google.com/web/tools/lighthouse)
 
 ## Deployment 
 ### GitHub Pages
