@@ -160,6 +160,7 @@ CSS Validation Issue with  https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css
 ![CSS Validation](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/css-validation-report.png)
 
 - [Lighthouse Report Result](https://developers.google.com/web/tools/lighthouse)
+
  Lighthouse Validation Desktop
 ![Lighthouse Validation Desktop](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/documents/lighthouse-desktop-validation-report.png)
  Lighthouse Validation Mobile
