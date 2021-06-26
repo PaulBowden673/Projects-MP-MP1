@@ -15,27 +15,28 @@
 
     <title>Mr Shiraz</title>
 </head>
-<header>
-    <div class="container-fluid hero-box">
-        <img class="hero-image" src="assets/images/hero-image-2.jpg" alt="Mr Shiraz Logo">
-        <div class="hero-nav">
-            <nav>
-                <ul class="nav nav-pills justify-content-center">
-                    <li class="nav-item">
-                        <a class="flex-sm-fill nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="flex-sm-fill nav-link btn-danger active" href="music.html">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="flex-sm-fill nav-link" href="book.html">Book Us!</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
+
 <body>
+    <header>
+        <div class="container-fluid hero-box">
+            <img class="hero-image" src="assets/images/hero-image-2.jpg" alt="Mr Shiraz Logo">
+            <div class="hero-nav">
+                <nav>
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item">
+                            <a class="flex-sm-fill nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill nav-link btn-danger active" href="music.html#music">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill nav-link" href="book.html#book-form">Book Us!</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <!---------------------------------------------Bootstrap Sin Up Modal-->
     <section>
         <button type="button" id="sign-up" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign
@@ -54,19 +55,19 @@
                         <form action="https://formdump.codeinstitute.net/" method="post">
                             <div class="form-group">
                                 <label for="fname">First Name</label>
-                                <input type="text" class="form-control" id="fname" aria-describedby="Enter first name"
+                                <input type="text" class="form-control" id="fname" aria-label="Enter first name"
                                     required>
                             </div>
                             <div class="form-group">
                                 <label for="lname">Last Name</label>
-                                <input type="text" class="form-control" id="lname" aria-describedby="Enter last name"
+                                <input type="text" class="form-control" id="lname" aria-label="Enter last name"
                                     required>
                             </div>
                             <div class="form-group">
                                 <label for="email-address">Email address</label>
-                                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
+                                <input type="email" class="form-control" id="email-address" aria-label="emailHelp"
                                     required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                <small id="emailHelp" class="form-text">We'll never share your email with
                                     anyone
                                     else.</small>
                             </div>
@@ -78,7 +79,7 @@
         </div>
     </section>
     <!-----------------------------------Music cards-->
-    <section class="music">
+    <section id="music" class="music">
         <h2 class="sub-title">Music <i class="fa fa-music" aria-hidden="true"></i></h2>
         <p><i>All Links open in BandCamp.com</i></p>
         <div class="card-deck container-fluid ">
@@ -167,45 +168,44 @@
         <p><i>All Links open in BandCamp.com</i></p>
         <div class="card-deck container-fluid">
             <!--<div class="row">-->
-                <div class="col-md-4 col-sm-4">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <img class="card-img-top" src="assets/images/tshirt-1.jpg"
-                                alt="Mr Shiraz Ill BehaviourT-Shirt">
-                            <p aria-hidden="true">Ill Behaviour<br> T-Shirt</p>
-                            <a target="_blank"
-                                href="https://mrshiraz.bandcamp.com/merch/ill-behaviour-shirt-w-free-xx-20-year-retrospective   "
-                                class="btn btn-primary stretched-link"
-                                aria-label="Buy Mr Shiraz Ill Behaviour T-Shirt">Buy T-Shirt</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <img class="card-img-top" src="assets/images/tshirt-2.jpg" alt="Mr Shiraz Oh Lawd T-Shirt">
-                            <p aria-hidden="true">Oh Lawd  <br> T-Shirt</p>
-                            <a target="_blank"
-                                href="https://mrshiraz.bandcamp.com/merch/oh-lawd-shirt-w-free-xx-20-year-retrospective-download"
-                                class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz Oh Lawd T-Shirt">Buy
-                                T-Shirt</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <img class="card-img-top" src="assets/images/tshirt-3.jpg"
-                                alt=" Mr Shiraz 'They Bite!' T-Shirt">
-                            <p aria-hidden="true">'They Bite!'<br> T-Shirt</p>
-                            <a target="_blank"
-                                href="https://mrshiraz.bandcamp.com/merch/they-bite-shirt-w-free-xx-20-year-retrospective-download"
-                                class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz They Bite T-Shirt">Buy
-                                T-Shirt</a>
-                        </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img class="card-img-top" src="assets/images/tshirt-1.jpg" alt="Mr Shiraz Ill BehaviourT-Shirt">
+                        <p aria-hidden="true">Ill Behaviour<br> T-Shirt</p>
+                        <a target="_blank"
+                            href="https://mrshiraz.bandcamp.com/merch/ill-behaviour-shirt-w-free-xx-20-year-retrospective   "
+                            class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz Ill Behaviour T-Shirt">Buy
+                            T-Shirt</a>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img class="card-img-top" src="assets/images/tshirt-2.jpg" alt="Mr Shiraz Oh Lawd T-Shirt">
+                        <p aria-hidden="true">Oh Lawd <br> T-Shirt</p>
+                        <a target="_blank"
+                            href="https://mrshiraz.bandcamp.com/merch/oh-lawd-shirt-w-free-xx-20-year-retrospective-download"
+                            class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz Oh Lawd T-Shirt">Buy
+                            T-Shirt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img class="card-img-top" src="assets/images/tshirt-3.jpg"
+                            alt=" Mr Shiraz 'They Bite!' T-Shirt">
+                        <p aria-hidden="true">'They Bite!'<br> T-Shirt</p>
+                        <a target="_blank"
+                            href="https://mrshiraz.bandcamp.com/merch/they-bite-shirt-w-free-xx-20-year-retrospective-download"
+                            class="btn btn-primary stretched-link" aria-label="Buy Mr Shiraz They Bite T-Shirt">Buy
+                            T-Shirt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <hr>
     </section>
