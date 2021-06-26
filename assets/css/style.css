@@ -31,8 +31,11 @@ p a i,
     color: #E40F0F;
 }
 
-
-.nav-link:hover {
+a.nav-pills {
+background-color: #950808;
+}
+.nav-link:hover,
+.nav-link:active {
     color: #950808;
 }
 
