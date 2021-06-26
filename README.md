@@ -61,7 +61,7 @@
 ## Wireframe Mock-ups 
 These can be found at the following links 
 
-- [Wireframe 3 screen sizes](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/wireframes/Mr%20Shiraz%20responsive%20Website%20(3).pdf)
+- [Wireframe 3 screen sizes](https://github.com/PaulBowden673/Projects-MP-MP1/blob/master/assets/wireframes/mr-shiraz-wireframe.pdf)
 
 ## Features
 - Responsive on all screen sizes
